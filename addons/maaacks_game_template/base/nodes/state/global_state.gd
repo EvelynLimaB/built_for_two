@@ -7,6 +7,15 @@ const NO_VERSION_NAME = "0.0.0"
 static var current : GlobalStateData
 static var current_version : String
 
+@export var unlocked_chapters: Array[String] = ["ch1"]
+
+func unlock_chapter(chapter_id: String) -> void:
+	if not chapter_id in unlocked_chapters:
+		unlocked_chapters.append(chapter_id)
+
+func is_chapter_unlocked(chapter_id: String) -> bool:
+		return chapter_id in unlocked_chapters
+
 static func _log_opened() -> void:
 	if current is GlobalStateData:
 		current.last_unix_time_opened = int(Time.get_unix_time_from_system())

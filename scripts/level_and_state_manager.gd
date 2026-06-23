@@ -13,3 +13,8 @@ func get_checkpoint_level_path() -> String:
 	if not state_level_path.is_empty():
 		return state_level_path
 	return super.get_checkpoint_level_path()
+
+func on_timeline_ended(chapter_id: String, next_chapter: String) -> void:
+	var game_state = GameState.get_or_create_state()
+	game_state.unlock_chapter(next_chapter)
+	# Then load next chapter or show menu

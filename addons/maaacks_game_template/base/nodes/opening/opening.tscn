@@ -11,6 +11,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_fcjph")
+next_scene_path = "uid://dbyxill64xa5l"
 images = Array[Texture2D]([ExtResource("2_5i5om")])
 
 [node name="BackgroundMusicPlayer" type="AudioStreamPlayer" parent="." unique_id=1317385298]
