@@ -21,8 +21,6 @@ buses/default_bus_layout="uid://bqljemaybrni5"
 
 [autoload]
 
-LokGlobalStorageManager="*uid://x8vlpp6xmgqa"
-ScenesManagerController="*uid://b7eeikk7h67tx"
 AppConfig="*uid://cjke6crjg14a0"
 SceneLoader="*uid://cbwmrnp0af35y"
 ProjectMusicController="*uid://r5t485lr3p7t"
@@ -36,9 +34,29 @@ directories/dch_directory={
 "Daisy": "res://assets/characters/Daisy/Daisy.dch"
 }
 directories/dtl_directory={
+"ch1_master": "res://timelines/ch1_master.dtl",
+"ch1_scene1_wakeup": "res://timelines/ch1_scene1_wakeup.dtl",
+"ch1_scene2_night_and_bike": "res://timelines/ch1_scene2_night_and_bike.dtl",
+"ch1_scene3_supermarket": "res://timelines/ch1_scene3_supermarket.dtl",
+"ch1_scene4_home_breakdown": "res://timelines/ch1_scene4_home_breakdown.dtl",
+"ch1_scene5_morning_pasta": "res://timelines/ch1_scene5_morning_pasta.dtl",
+"ch1_scene6_abby_chat": "res://timelines/ch1_scene6_abby_chat.dtl",
+"ch2_scene1_balcony": "res://timelines/ch2_scene1_balcony.dtl",
+"ch2_scene2_tv_confrontation": "res://timelines/ch2_scene2_tv_confrontation.dtl",
+"ch2_scene3_park_confession": "res://timelines/ch2_scene3_park_confession.dtl",
+"ch2_scene4_hill_assault": "res://timelines/ch2_scene4_hill_assault.dtl",
+"ch2_scene5_dark_thoughts": "res://timelines/ch2_scene5_dark_thoughts.dtl",
 "test": "res://scenes/test.dtl"
 }
 layout/style_directory={}
+variables={
+"BelleArrived": false,
+"BelleLivingHere": false,
+"PastaBurned": false
+}
+glossary/default_case_sensitive=true
+layout/style_list=[]
+layout/default_style="Default"
 
 [dotnet]
 
@@ -51,7 +69,7 @@ version_control/autoload_on_startup=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/locker/plugin.cfg", "res://addons/maaacks_game_template/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/maaacks_game_template/plugin.cfg")
 
 [gui]
 

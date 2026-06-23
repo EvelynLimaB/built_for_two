@@ -7,7 +7,7 @@ Gera automaticamente todos os ficheiros .dtl corrigidos para a VN "Flower within
 import os
 
 # Pasta de destino (relativa ao local onde o script é executado)
-OUTPUT_DIR = "res://timelines"
+OUTPUT_DIR = "./timelines"
 
 # Conteúdo de cada ficheiro
 FILES = {

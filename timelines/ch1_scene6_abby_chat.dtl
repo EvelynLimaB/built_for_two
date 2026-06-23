@@ -1,0 +1,73 @@
+label start
+[background path="res://backgrounds/daisy_bedroom.png" fade="1.0"]
+leave Belle
+join Daisy (neutral) left
+
+Daisy (typing): *tec *tec *tec Mission… tec. Accomplished! Haaaaaaaah… it's done! Finally! I'm free….
+Narrator: I want to sleep the whole weekend… Damn, I'm starving… Belle isn't cooking shit. All she does all day is doomscroll and complain. I'm tired… I don't really know what to do. Is she still mad at me for the pasta thing? Ugh… thinking hurts… sometimes I just wish I had a mommy older gf to tell me what to do. She'd probably say to try to distract my mind so I wouldn't be stuck in my own thoughts. Yeah, I should probably play something.
+[audio path="res://audio/sfx/computer_beep.wav"]
+Narrator: Huh? Did I forget to fill up a form – Abby?!
+
+join Abby (phone) right [animation="Fade Up" length="0.3" wait="true"]
+Abby: "Hey girl, u good? You always boot up that game when you're messed up."
+Daisy: "U really do know me huh Abs. You free rn?"
+Abby: "Kinda? I have a date coming over in like, 30s? But I'm free until there."
+Daisy: "Leme guess / Another boymoder you found on grindr?"
+Abby: "Aww u know me so well, D! Now spill the tea!"
+Daisy: "My sister has come over to live with me. She was homeless for a while and didn't have anywhere else to go."
+Abby: "Wow… That's harsh. Is she okay?"
+Daisy: "I think so? I don't know, actually. / The thing is / I think I'm doing something really wrong / I don't know what to do."
+Abby: "Girl, breathe. / What could you possibly be doing that would be so wrong?"
+Daisy: "I think I might be grooming her…"
+Abby: "Woah, woah, woah. / Wait a second, D. What the fuck did you do?"
+Daisy: "I don't know! It's just… I think I'm attracted to her…"
+Abby: "You? / Attracted to someone? / Weren't you ace aro or something?"
+Daisy: "I AM! / I don't know why I'm feeling like this. / I hate it. I hate it so much."
+Abby: "Daisy, first of all, how old is she?"
+Daisy: "18 / but that's beyond the point."
+Abby: "Then you're not grooming her? / You're both grown ass woman."
+Daisy: "idk its just / complicated / hm / fuck i feel bad abby"
+Abby: "You are NOT like him. / You know that, right?"
+Daisy: "But what if I'm making her feel this way? What if she's scared of me?"
+Abby: "You forget you are as much of a victim as her, D. / You've both gone through that shit. / If there's someone in the entire world who understands you best, it's her."
+Daisy: "I… I did something."
+Abby: "Elaborate."
+Daisy: "I was stressed with work and couldn't concentrate, so I tried to… / You know… destress"
+Abby: "And what happened?"
+Daisy: "I started to feel good / too good… / like I could / get there, yk?"
+Abby: "Wait, that's good! / ???? / You like / Never there"
+Daisy (sobbing): "It felt like last time"
+Abby: "oh / poor girl"
+Daisy: "I think it's because I felt like she could hear me. / Fuck / I'm monster."
+Abby: "D / listen to me / some people deal with shit in different ways okay? / You are NOT a monster / Freaky? / yea. we figured that together b4 / but that's not a bad thing."
+Daisy: "I hate that I liked it / I hate that it felt good. / I hate my body."
+Abby: "C'mon, D, relax. It's okay. You're not doing anything wrong. / We aren't that different, you know / I'm a monster?"
+Daisy: "No?"
+Abby: "Yeah, cause in your logic, I 'groom' closeted t-girls so I can fuck their brains out and feel like I'm in control of when it happened while I was one. / Main difference I'm fucking consenting adults"
+Daisy: "I don't want to / fuck anyone"
+Abby: "D, I know your bottom dysphoria sucks / we already know that it doesn't mean you can't try other options, right?"
+Daisy: "What is wrong with me…"
+Abby: "Youre a pathetic bottom"
+Daisy: "Abs."
+Abby: "D, why don't you talk to her?"
+Daisy: "NO FUCKING WAY. / ???????"
+Abby: "Is that really a bad idea? / Like I said / If there's someone who would understand you, it's her. / You shouldn't be afraid of her, she's your beloved lil sis!"
+Daisy: "Don't call her like that…"
+Abby: "Oh for fuck's sake / Daisy, you had all Volumes of Onimai. / You've always been into some freaky incest stuff. / I know what you are."
+Daisy: "STOP STOP FOR THE LOVE OF GOD STOP TALKING."
+Abby: "If you don't want to talk to her, what about you sneaking into her stuff and grabbing a used underwear! / Like those really ass ecchi anime"
+Daisy: "Sybau. / I'm blocking you forever. / Die"
+Abby: "Just kidding just kidding lmao / I'll have to go now D. / Let's just say my… 'food' / has arrived."
+Daisy: "..."
+Abby: "And by 'food'I mean… / Lets just say haha"
+Daisy: "YEA / I GOT IT"
+Abby: "I'm Always here for you, princess. / (except when I'm… eating)."
+Daisy: "Fuck off. / I swear. / Im gonna do it this time"
+Abby: "I'm not gonna fuck 'off' silly! / I'm going to fuck a really pretty girltwink who wears hoodies 24/7!"
+Daisy: "I really can't say that you're a chaser?"
+Abby: "Yeah. / now go back to the robot mommy ASMRring in your ear how fat and plumpt you are."
+Daisy: "I hate you."
+Abby: "S2 / Later lil sis enthusiast~"
+Daisy: "… (logs off)"
+Narrator: Perhaps… things will get better from now on.
+[end_timeline]

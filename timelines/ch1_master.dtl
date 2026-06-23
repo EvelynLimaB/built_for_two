@@ -1,0 +1,8 @@
+# ch1_master.dtl
+label start
+
+set {BelleArrived} = false
+set {BelleLivingHere} = false
+set {PastaBurned} = false
+
+jump ch1_scene1_wakeup/

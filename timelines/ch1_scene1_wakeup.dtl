@@ -1,0 +1,68 @@
+label start
+[background path="res://backgrounds/daisy_bedroom.png" fade="1.0"]
+join Daisy (neutral) left
+
+Daisy (sleepy): Uhnn...
+Daisy (sleepy): Whaaht time ish it now??
+Daisy (sleepy): 16:20?? Just a nap my ass! It’s a whole new day…
+Daisy (stretch): I can’t rest at all. A few more hours wouldn’t make it better I guess.. I gotta pee blehg.
+
+[background path="res://backgrounds/bathroom.png" fade="0.8"]
+update Daisy (neutral) center [move_time="0.6" move_trans="Quad" move_ease="InOut"]
+Daisy: Turn the light of the bathroom... Hunf, miserable. How long has it been since I last looked at the mirror? I need to wash my hair, and shave… I’ll deal with my hair later.
+Daisy (thinking): *shaving sound*
+[audio path="res://audio/sfx/doorbell.wav"]
+Daisy (shocked): AAAAFUCK!
+Daisy (hurt): I hate razors. …fuck.
+Daisy (walking): Have I ordered anything? Why is someone ringing my door…
+Daisy (surprised): Belle?!
+
+[audio path="res://audio/sfx/door_open.wav"]
+join Belle (neutral) right [animation="Fade Up" length="0.5" wait="true"]
+Daisy (happy): Belle!
+Daisy (teary): Where have you been?! Why haven’t you picked up my calls? Why do you look like a twig?
+Belle (warm): Missed you too, Daisies! May I come in?
+Daisy: Of course, girl, just… listen, I’m not complaining, I’m just confused; You’ve disappeared for so long and now you appear at my front step? Like, okay, but why? What happened to you?
+Belle (apologetic): Sorry for not answering you sis, I just didn’t want you to worry! By the way, you’re bleeding.
+Daisy (neutral): I know, I’ll take care of it, just tell me what’s going on. Those geezers did something to you?
+Belle: Oh… No, not really. I haven’t talked to them for a while now. I ran away!
+Daisy (shocked): WHAT?! WHY?! WHEN?! WHY DIDN’T YOU TELL ME?! WHERE HAVE YOU BEEN?!
+Belle (smiling): Relax, pretty face, I’m okay! Like I said, I didn’t want to worry you. Mom and pops were being more annoying than usual and I decided I didn’t want to deal with their bullshit anymore. It’s been great!
+Daisy (sad): Belle…
+Belle: What? I said it’s been great.
+Daisy: When exactly did you leave?
+Belle (thinking): It’s been like… I dunno, a year? I’m not that good remembering that type of stuff.
+Daisy (teary): Belle… where have you been all this time?
+Belle (dismissive): Been here and there. Stayed with some friends for a while! Well… ex-friends now, but that doesn’t matter.
+Daisy (angry): Shut the fuck up! You’ve been homeless for more than a year when you knew you could have just called me and lived with me all this time… Why?
+Belle (silent): ...
+Daisy (pleading): Belle?
+Belle: ...
+Daisy (demanding): Answer me!
+Belle (mischievous): But you told me to shut up, he he!
+Daisy (exasperated): Arrrg, for fuck sake! I don’t care anymore! You’re living with me, liking you or not!
+Belle (grinning): Aye aye, captain! So, where do I stay?
+Daisy: My bed isn’t built for two, so you’ll have to get the sofa treatment.
+Belle (bright): Hey sis, cheer up. It’s okay! I just haven’t been able to get a job and all. Just give me some weeks and I’ll get out of your—
+Daisy (firm): No.
+Belle: No? What do you mean—
+Daisy: It means I’m tired of your bullshit! Listen to me, I don’t care if you get a job or not, you’re going to live with me. I’m paid enough to take care of us both, so I’m not letting you run away from me again.
+Belle (hesitant): But Day… I really don’t want to be—
+Daisy (interrupting): Let me finish! I have two conditions. First one, is that you clean after yourself, I can already deal with the rest of the housework, just don’t give me more shit. Second one… I kinda can’t afford to feed us both in the way I usually eat so, you’ll have to cook for us both. Agreed?
+Belle (soft): ... Is that… really it?
+Daisy: Any objection?
+Belle (teary): It feels… too little… Isn’t there anything else you’d like me to do?
+Daisy (thinking): Hmm, not really. I’ve been living alone for quite some time so I already got the hang of stuff. I dunno if there’s something else you can do.
+Belle (excited): Actually, I can think of something!
+Daisy: What?
+Belle (playful): Your hair, babygirl! It’s a mess! Let me comb it for you, like we used to do!
+Daisy (annoyed): Fuck off with that ‘babygirl’ bullshit, I’m older than you!
+Belle (pleading): Oh please, please, please, let me do it for you!
+Daisy (flat): Miss me with that borzoi face…
+Belle (puppy eyes): ...
+Daisy (sigh): Argh fine! You can comb my hair while I work, but don’t distract me!
+Belle (joyful): YAAAY! You’re the best big sis ever!!
+
+set {BelleArrived} = true
+set {BelleLivingHere} = true
+[end_timeline]

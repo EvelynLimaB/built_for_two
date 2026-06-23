@@ -1,0 +1,34 @@
+label start
+[background path="res://backgrounds/daisy_apartment.png" fade="1.0"]
+leave Daisy
+join Belle (bored) center
+
+Narrator: click click Boring… boring… boring. Ugh! Election period is so ass! All channels are filled with the same bullshit! I'll go out for a smoke…
+
+join Daisy (nervous) left
+Daisy: Uhm, Good afternoon, sis! How you feeling?
+Belle (flat): … fine, I guess.
+Daisy: Good. Good. That's great! Uhm… look I'm not good with this, but… can we talk?
+Belle: … sure.
+
+Narrator: (Disassociating) There it is. She's kicking me out. Not even “Mrs. Perfect” could stand me. I guess mom and pops were right when they said I will never amount to anything. I'm just a worthless bitch with a pretty body. That's all I am. I don't know how to be anything else… I may be cursed… cursed to hurt everyone I ever loved. Cursed to destroy every relationship I've built. Cursed to burn every single bridge I've ever crossed… I'm despicable. The only good thing I have is this body. So… If I have to use it to get what I want, then so be it. I'll use it. I'll survive. I just need a couple more days, right? Just a couple more days. A couple more days. A couple more days. A couple more days…
+
+update Daisy center [move_time="0.6"]
+Daisy: Look, when I said you could live here, I told you only had to follow some conditions: you'd cook and you'd tidy your things up. Since the pasta thing, you haven't cooked at all. All we've been eating has been pre‑heated food and other junk that I can't afford to keep paying. The living room is also filled with empty snacks, dirty clothes and all sorts of trash. Your trash. You haven't even been taking care of your own hygiene, Belle. You rarely bathe and I've never even seen your toothbrush in the bathroom! I'm just… worried about you, about us. I really want us to work. I'm not blaming you either, I just want to understand you, to help you. I want you to help me help you. Are you… listening to me? Belle…? Belle, what are you doing? Belle…? Belle…?! Belle, stop this… please… Belle… Ah!
+
+update Belle (close) center [move_time="0.3" wait="true"]
+Daisy (moan): Ah!
+Belle (snapping back): …
+Daisy (teary): …
+Belle: …
+
+[audio path="res://audio/music/christian_song.wav"]
+Narrator: That's… my song… Oh… It's him…
+Narrator: A cheerful man in cleric attire appears on the TV. He's proudly announcing his candidacy while a choir of children sing in the background. He approaches the kids and gives them all a big hug. “We need to protect our children from the common enemy,” he says.
+Narrator: He has… a scar… from that day… it's my fault. my fault. my fault. my fault. my fault. my fault. my fault. my fault. my fault. my fault.
+
+[audio stop="true"]
+Daisy (rage): …
+Belle: …
+Daisy (quiet): I think… we should go outside a little – get some air, you know?
+[end_timeline]
