@@ -14,7 +14,7 @@ Daisy (chuckling): What do you mean Huff… I never laugh?!
 Belle: I told you before, Day. Resting bitch face! Hahahahaha!
 Daisy: Yeah… I guess you're the only one who can make me laugh… Ha ha ha.
 
-[audio path="res://audio/sfx/footsteps.wav"]
+audio "res://audio/sfx/footsteps.wav"
 join RandomGuy1 (smirk) left
 join RandomGuy2 (lewd) right
 

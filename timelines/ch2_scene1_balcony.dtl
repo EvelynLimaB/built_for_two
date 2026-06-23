@@ -17,7 +17,7 @@ Narrator: Maybe she does love me… pff nah I doubt it. She probably just pity t
 Narrator: Maybe it'd be better if I just jumped from this balcony and spared both of us the trouble…
 Belle (laughing bitterly): pff hahaha HaHaHaHa! Ahh… as if I had that right…
 
-[audio path="res://audio/sfx/door_creak.wav"]
+audio "res://audio/sfx/door_creak.wav"
 join Daisy (sleepy) right
 
 Daisy: Belle? You there?

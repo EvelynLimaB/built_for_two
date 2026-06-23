@@ -11,7 +11,7 @@ Narrator: I want to sleep the whole weekend… Damn, I'm starving… Belle isn't
 Narrator: I'm tired… I don't really know what to do. Is she still mad at me for the pasta thing? Ugh… thinking hurts… sometimes I just wish I had a mommy older gf to tell me what to do.
 Narrator: She'd probably say to try to distract my mind so I wouldn't be stuck in my own thoughts. Yeah, I should probably play something.
 
-[audio path="res://audio/sfx/computer_beep.wav"]
+audio "res://audio/sfx/computer_beep.wav"
 
 Narrator: Huh? Did I forget to fill up a form – Abby?!
 

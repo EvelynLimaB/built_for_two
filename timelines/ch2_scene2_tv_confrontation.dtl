@@ -1,7 +1,7 @@
 # ch2_scene2_tv_confrontation.dtl
 label start
 
-[background path="res://backgrounds/daisy_apartment.png" fade="1.0"]
+[background fade="1.0"]
 leave Daisy
 join Belle (bored) center
 
@@ -22,28 +22,28 @@ Narrator: I just need a couple more days, right? Just a couple more days. A coup
 
 update Daisy center [move_time="0.6"]
 
-Daisy: Look, when I said you could live here, I told you only had to follow some conditions: you'd cook and you'd tidy your things up.
+Daisy: Look, when I said you could live here, I told you only had to follow some conditions\: you'd cook and you'd tidy your things up.
 Daisy: Since the pasta thing, you haven't cooked at all. All we've been eating has been pre‑heated food and other junk that I can't afford to keep paying.
 Daisy: The living room is also filled with empty snacks, dirty clothes and all sorts of trash. Your trash.
 Daisy: You haven't even been taking care of your own hygiene, Belle. You rarely bathe and I've never even seen your toothbrush in the bathroom!
 Daisy: I'm just… worried about you, about us. I really want us to work. I'm not blaming you either, I just want to understand you, to help you. I want you to help me help you.
 Daisy: Are you… listening to me? Belle…? Belle, what are you doing? Belle…? Belle…?! Belle, stop this… please… Belle… Ah!
 
-update Belle (close) center [move_time="0.3" wait="true"]
+update Belle (close) center [wait="true" move_time="0.3"]
 
 Daisy (moan): Ah!
 Belle (snapping back): …
 Daisy (teary): …
 Belle: …
 
-[audio path="res://audio/music/christian_song.wav"]
+audio song "res://audio/music/christian_song.wav"
 
 Narrator: That's… my song… Oh… It's him…
 Narrator: A cheerful man in cleric attire appears on the TV. He's proudly announcing his candidacy while a choir of children sing in the background. He approaches the kids and gives them all a big hug.
 Narrator: "We need to protect our children from the common enemy," he says.
 Narrator: He has… a scar… from that day… it's my fault. my fault. my fault. my fault. my fault. my fault. my fault. my fault. my fault. my fault.
 
-[audio stop="true"]
+audio song -
 
 Daisy (rage): …
 Belle: …

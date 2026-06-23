@@ -1,7 +1,7 @@
 # ch1_scene5_morning_pasta.dtl
 label start
 
-[background path="res://backgrounds/daisy_apartment_morning.png" fade="1.0"]
+[background fade="1.0"]
 join Daisy (drowsy) left
 
 Belle (off-screen): *Knock Knock* Days? You alive in there? You forgot to eat yesterday! I made you breakfast, get out of there!
@@ -30,12 +30,12 @@ Belle (gentle): Days, you're a horrible liar. Look, I won't pry. Think of this a
 Daisy: Belle, it's okay. You did nothing wrong. Could you just… uhm, let me take a shower real quick?
 Belle: Oh, right, sorry haha! I'll leave you be!
 
-[background path="res://backgrounds/bathroom.png" fade="0.8"]
+[background fade="0.8"]
 update Daisy (sad) center
 
 Daisy (to self): … Fuck. What the hell is wrong with me… I really need to bathe…
 
-[background path="res://backgrounds/daisy_apartment.png" fade="1.0"]
+[background fade="1.0"]
 join Daisy (fresh) left
 
 Belle (cooking): (Sniff) Girl, what you cooking, it smells so– WHY'S THE DOOR OPEN?!
@@ -76,7 +76,7 @@ Belle: You know how it feels to never be chosen? To never be acknowledged? You f
 Daisy: Belle…
 Belle: You had everything I ever wanted and you WASTED IT!
 
-[audio path="res://audio/sfx/slam.wav"]
+audio "res://audio/sfx/slam.wav"
 
 Daisy: Belle!
 Belle (screaming): WHAT?!

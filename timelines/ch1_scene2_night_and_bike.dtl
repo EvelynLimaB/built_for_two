@@ -1,7 +1,7 @@
 # ch1_scene2_night_and_bike.dtl
 label start
 
-[background path="res://backgrounds/daisy_bedroom_night.png" fade="1.0"]
+[background fade="1.0"]
 join Daisy (neutral) left
 leave Belle
 
@@ -19,7 +19,7 @@ Narrator: Uhh, I'm so tired… I couldn't even get much work done today. Maybe I
 Daisy (sleepy): ...
 
 # Bike ride
-[background path="res://backgrounds/hill_road.png" fade="1.0"]
+[background fade="1.0"]
 join Belle (neutral) right
 
 Daisy (neutral): ...
@@ -37,7 +37,7 @@ Belle: THIS BICYCLE. IS. CLEARLY. NOT.
 Daisy: Belle…
 Belle: What, my beautiful princess with a disorder? Wait… what are you doing? No, no, NO, NO NO NO–AAAAAAAAAAAAAAAHHHHHHHHH
 
-[background path="res://backgrounds/hill_fast.png" fade="0.3"]
+[background fade="0.3"]
 
 Narrator: The sensation of the wind on my face, the pressure in my chest, the warmth of her holding me— sooooooo tightly.
 Belle (faint): MOTHERFUCKER
@@ -49,8 +49,8 @@ Narrator: I missed you so much, Belle…
 Belle (urgent): DAISY! THE CURVE!
 Daisy (startled): …hm? Wha— Oh.
 
-[audio path="res://audio/sfx/crash.wav"]
-[background path="res://backgrounds/grass_field.png" fade="0.5"]
+audio -
+[background fade="0.5"]
 
 Daisy (dizzy): ...
 Belle (silent): ...
