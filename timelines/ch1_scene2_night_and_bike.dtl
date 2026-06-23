@@ -1,40 +1,47 @@
+# ch1_scene2_night_and_bike.dtl
 label start
+
 [background path="res://backgrounds/daisy_bedroom_night.png" fade="1.0"]
 join Daisy (neutral) left
 leave Belle
 
 Daisy (tired): To think organizing a few bags would be so exhausting, huh...
-Narrator: So much time away, it’s refreshing to see how much she’s grown. I was afraid to never really see her again. To see her turning out to be such a woman— I’m glad.
-Narrator: My hair feels so fluffy. The way she combed my hair really made me feel like we were kids again. I almost forgot how nice it felt to have her next to me. I missed her so much. These plushies are comfy, but I wish she’d be here with me...
+
+Narrator: So much time away, it's refreshing to see how much she's grown. I was afraid to never really see her again. To see her turning out to be such a woman— I'm glad.
+Narrator: My hair feels so fluffy. The way she combed my hair really made me feel like we were kids again.
+Narrator: I almost forgot how nice it felt to have her next to me. I missed her so much. These plushies are comfy, but I wish she'd be here with me...
 Narrator: Ah... I feel... strange. Why am I so... warm...?
-Narrator: I guess I’m just... happy. How ironic, huh. It’s really been a while...
-Narrator: Doesn’t matter! It’s better if I just focus on what I’ll have to do now that she’s here. I’ll receive my payment in two days. After that, I’ll carry her to the nearest supermarket. Urgh! My guts ache even just thinking about it. Guess that’s what happens when you’re a lazy bitch that’s afraid of sunlight.
-Narrator: Either way, I need to be responsible for her. I can’t let whatever happened to her in this whole year happen again. I’ll never let anything bad happen to her again...
-Narrator: Uhh, I’m so tired… I couldn’t even get much work done today. Maybe I should do somme worrh…—
+Narrator: I guess I'm just... happy. How ironic, huh. It's really been a while...
+Narrator: Doesn't matter! It's better if I just focus on what I'll have to do now that she's here. I'll receive my payment in two days. After that, I'll carry her to the nearest supermarket.
+Narrator: Urgh! My guts ache even just thinking about it. Guess that's what happens when you're a lazy bitch that's afraid of sunlight.
+Narrator: Either way, I need to be responsible for her. I can't let whatever happened to her in this whole year happen again. I'll never let anything bad happen to her again...
+Narrator: Uhh, I'm so tired… I couldn't even get much work done today. Maybe I should do somme worrh…—
 Daisy (sleepy): ...
 
 # Bike ride
 [background path="res://backgrounds/hill_road.png" fade="1.0"]
 join Belle (neutral) right
+
 Daisy (neutral): ...
 Belle (worried): Are you really sure this is the fastest way?
 Daisy: Isabelle, I have lived here since I was 18, what do you think?
-Belle (frightened): It’s so steep… I don’t have the slightest faith in this ride either.
-Daisy: You’ve been a pain in the ass since we’ve stepped out of the door.
-Belle: This is completely different! You’re trying to kill us both!
-Daisy: It’s. Just. A. Slope. Could you please stop?
+Belle (frightened): It's so steep… I don't have the slightest faith in this ride either.
+Daisy: You've been a pain in the ass since we've stepped out of the door.
+Belle: This is completely different! You're trying to kill us both!
+Daisy: It's. Just. A. Slope. Could you please stop?
 Belle (smirk): Day, may I sleep in your bed tonight?
 Daisy (flustered): W-What?!
-Belle (mocking): No, right? Because it’s a single bed, right? Not built for two, right?
+Belle (mocking): No, right? Because it's a single bed, right? Not built for two, right?
 Daisy: Belle. What the fuck are you talking about?
 Belle: THIS BICYCLE. IS. CLEARLY. NOT.
 Daisy: Belle…
 Belle: What, my beautiful princess with a disorder? Wait… what are you doing? No, no, NO, NO NO NO–AAAAAAAAAAAAAAAHHHHHHHHH
 
 [background path="res://backgrounds/hill_fast.png" fade="0.3"]
+
 Narrator: The sensation of the wind on my face, the pressure in my chest, the warmth of her holding me— sooooooo tightly.
 Belle (faint): MOTHERFUCKER
-Narrator: Whimsical. Like we’ve traveled to a time when we were both so young and free.
+Narrator: Whimsical. Like we've traveled to a time when we were both so young and free.
 Belle (echo): SLOOOOW DOOOOOOWN
 Narrator: A time when the future seemed so far away, yet so hopeful. I miss those days. I miss feeling… Alive.
 Belle (echo): DAISYYYYYYY
@@ -44,6 +51,7 @@ Daisy (startled): …hm? Wha— Oh.
 
 [audio path="res://audio/sfx/crash.wav"]
 [background path="res://backgrounds/grass_field.png" fade="0.5"]
+
 Daisy (dizzy): ...
 Belle (silent): ...
 Daisy: .........
@@ -61,7 +69,8 @@ Daisy (nervous): hm—
 Belle (noticing): ...
 update Belle (neutral) right [move_time="0.5"]
 Belle: Sorry.
-Daisy (softer): It’s fine, sorry for—
+Daisy (softer): It's fine, sorry for—
 Belle: The murder? Yeah.
-Daisy (meek): Let’s… get going.
+Daisy (meek): Let's… get going.
+
 [end_timeline]

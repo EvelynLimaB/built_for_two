@@ -1,4 +1,6 @@
+# ch2_scene4_hill_assault.dtl
 label start
+
 [background path="res://backgrounds/hill_road.png" fade="1.0"]
 update Daisy (tired) left
 update Belle (tired) right
@@ -15,6 +17,7 @@ Daisy: Yeah… I guess you're the only one who can make me laugh… Ha ha ha.
 [audio path="res://audio/sfx/footsteps.wav"]
 join RandomGuy1 (smirk) left
 join RandomGuy2 (lewd) right
+
 RandomGuy1: Slap Nice cake you have there, pretty!
 Daisy (freezing): …
 Belle (freezing): …
@@ -47,6 +50,7 @@ update Daisy (running) left [move_time="0.2"]
 update Belle (running) right [move_time="0.2"]
 
 [background path="res://backgrounds/daisy_apartment.png" fade="0.5"]
+
 Daisy (panting): Arf… Huf… Are you… okay?
 Belle (heavy breath): ...
 Daisy (sobbing): I'm… so sorry that happened…
@@ -65,4 +69,5 @@ Daisy (horrified): Oh… God! Please stop talking…
 Belle: Pfff hahahaHaHa!!! What?! It's not like I'm wrong! The only difference is that I wouldn't have to just watch this time, right?
 Daisy (breaking): I'm sorry… I‑I… can't… I can't do this right now. I need… to go to my room. I'm sorry…
 Belle (manic laugh): HA HA HA HA HA Ha Ha ha ha ha… ha… …
+
 [end_timeline]

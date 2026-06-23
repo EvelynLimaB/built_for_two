@@ -1,25 +1,36 @@
+# ch2_scene1_balcony.dtl
 label start
+
 [background path="res://backgrounds/balcony_night.png" fade="1.0"]
 leave Abby
 join Belle (neutral) left
 
 Belle (smoking): What a week, huh…
-Narrator: Really hard to sleep on a couch that feels like a trash bag full of fucking needles. How can an apartment so high up be so damn hot? There ain't even a good view from this bitchass house. How can Daisy even live here? I guess she doesn't even care. I bet all she does all day is sit her fat ass on that computer and jerk off to anime girls.
-Narrator: No… I guess she doesn't. If she did I would have heard it by now with those paper walls. Maybe she's just a workaholic, huh… she's always been so competent with things. Always an +A student, always a perfect child, always polite, always well-behaved… and then… there was me. All I ever did was ruining her life. And now, here I am leeching off her. Eating her food, sleeping on her couch, shitting on her toilet, smoking on her balcony. All hers. Yet, I'm still here…
-Narrator: Why hasn't she kicked me out yet? I don't understand why she's all lovey dovey with me after all I've done. Maybe she does love me… pff nah I doubt it. She probably just pity the shit out of me. She doesn't give a fuck about me, she just doesn't want to feel guilty. Maybe it'd be better if I just jumped from this balcony and spared both of us the trouble…
+
+Narrator: Really hard to sleep on a couch that feels like a trash bag full of fucking needles. How can an apartment so high up be so damn hot? There ain't even a good view from this bitchass house.
+Narrator: How can Daisy even live here? I guess she doesn't even care. I bet all she does all day is sit her fat ass on that computer and jerk off to anime girls.
+Narrator: No… I guess she doesn't. If she did I would have heard it by now with those paper walls.
+Narrator: Maybe she's just a workaholic, huh… she's always been so competent with things. Always an +A student, always a perfect child, always polite, always well-behaved… and then… there was me.
+Narrator: All I ever did was ruining her life. And now, here I am leeching off her. Eating her food, sleeping on her couch, shitting on her toilet, smoking on her balcony. All hers. Yet, I'm still here…
+Narrator: Why hasn't she kicked me out yet? I don't understand why she's all lovey dovey with me after all I've done.
+Narrator: Maybe she does love me… pff nah I doubt it. She probably just pity the shit out of me. She doesn't give a fuck about me, she just doesn't want to feel guilty.
+Narrator: Maybe it'd be better if I just jumped from this balcony and spared both of us the trouble…
 Belle (laughing bitterly): pff hahaha HaHaHaHa! Ahh… as if I had that right…
 
 [audio path="res://audio/sfx/door_creak.wav"]
 join Daisy (sleepy) right
+
 Daisy: Belle? You there?
 Belle (dry): Don't you have work tomorrow, dear sister?
 Daisy: I-I heard you laughing and… are you smoking?
 Belle: (inhales) What do you think?
 Daisy: Since when do you… No, no, nevermind. I'll leave you be. Good night, sis.
 Belle: …night.
+
 Narrator: So well‑behaved… as always. sigh… She must despise me. She could've been so much. I ripped it all from her. Broke her and left her in pieces! It's all my fucking fault!
 Narrator: I haven't changed one bit, have I…? I'm still the same stupid kid that fell in love with him… I hate this… I hate this so much… I don't want to ruin her again… I don't want to… I don't want to… I don't want to…
 Narrator: … (Belle stops sobbing, starts disassociating)
 Narrator: Sigh… It doesn't really matter, does it? I just need to… buy some time… until I can find another place to crash. She hates you… like everybody else… like everybody… else…
 Narrator: … Ugh… Fuck, what was that all about! I really shouldn't trust my own thoughts past 9:00 PM… I need some sleep.
+
 [end_timeline]

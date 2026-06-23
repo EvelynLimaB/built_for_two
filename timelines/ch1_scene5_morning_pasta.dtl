@@ -1,88 +1,99 @@
+# ch1_scene5_morning_pasta.dtl
 label start
+
 [background path="res://backgrounds/daisy_apartment_morning.png" fade="1.0"]
 join Daisy (drowsy) left
+
 Belle (off-screen): *Knock Knock* Days? You alive in there? You forgot to eat yesterday! I made you breakfast, get out of there!
-Daisy (drowsy): Huh… Oh, okay! I’ll get there, just let me… go to the bathroom first.
-Belle: Don’t linger too much, sleeping beauty!
-Narrator: Did she… Did she hear me yesterday? By God, I hope not. Ugh, I reek of lube. If I get to the bathroom fast enough, she won’t even know…
+Daisy (drowsy): Huh… Oh, okay! I'll get there, just let me… go to the bathroom first.
+Belle: Don't linger too much, sleeping beauty!
+
+Narrator: Did she… Did she hear me yesterday? By God, I hope not. Ugh, I reek of lube. If I get to the bathroom fast enough, she won't even know…
 
 join Belle (playful) right
+
 Daisy (surprised): AH!
-Belle (laughing): Ha ha! Don’t be such a scaredy cat!
+Belle (laughing): Ha ha! Don't be such a scaredy cat!
 Daisy (startled): Y-YOU JUMPED ME!!
-Belle: No excuses! I’ll get your plate, darling!
+Belle: No excuses! I'll get your plate, darling!
 Daisy (sniffing): P-pancakes? Woah, it smells really nice, Belle!
-Belle (proud): What can I say? I’m the best!
-Daisy (happy): Hmm, so tasty too! They’re so fluffy!
+Belle (proud): What can I say? I'm the best!
+Daisy (happy): Hmm, so tasty too! They're so fluffy!
 Daisy (impressed): You really tidied up the place, huh?
 Belle (softly): Yeah, I guess I wanted to cheer you up!
 Daisy: C-cheer me up?
 Belle (sheepish): … I heard you crying yesterday. Figured it was my fault, so… this is my apology.
 Daisy: Apology? For what?
-Belle: For fucking with your routine. For complaining so much. For teasing you so much. For… everything, I guess. I haven’t been a good sister to you.
-Daisy (touched): Oh, Belle… you’re doing great. Me crying wasn’t your fault, okay? I was just… stressed with… work.
-Belle (gentle): Days, you’re a horrible liar. Look, I won’t pry. Think of this as a thank you for… you know, letting me live with you and all.
-Daisy: Belle, it’s okay. You did nothing wrong. Could you just… uhm, let me take a shower real quick?
-Belle: Oh, right, sorry haha! I’ll leave you be!
+Belle: For fucking with your routine. For complaining so much. For teasing you so much. For… everything, I guess. I haven't been a good sister to you.
+Daisy (touched): Oh, Belle… you're doing great. Me crying wasn't your fault, okay? I was just… stressed with… work.
+Belle (gentle): Days, you're a horrible liar. Look, I won't pry. Think of this as a thank you for… you know, letting me live with you and all.
+Daisy: Belle, it's okay. You did nothing wrong. Could you just… uhm, let me take a shower real quick?
+Belle: Oh, right, sorry haha! I'll leave you be!
 
 [background path="res://backgrounds/bathroom.png" fade="0.8"]
 update Daisy (sad) center
+
 Daisy (to self): … Fuck. What the hell is wrong with me… I really need to bathe…
 
 [background path="res://backgrounds/daisy_apartment.png" fade="1.0"]
 join Daisy (fresh) left
-Belle (cooking): (Sniff) Girl, what you cooking, it smells so– WHY’S THE DOOR OPEN?!
+
+Belle (cooking): (Sniff) Girl, what you cooking, it smells so– WHY'S THE DOOR OPEN?!
 Daisy (panicked): Relax, babygirl, I just needed some air. It was really stuffy in here without a single window, so I made one.
-Daisy (rushing): There’s a window in the bathroom!
-Belle (teasing): Which was somehow occupied, wasn’t it?
+Daisy (rushing): There's a window in the bathroom!
+Belle (teasing): Which was somehow occupied, wasn't it?
 Daisy (slamming door): Huf… Huf… I hate… leaving it open. I feel exposed!
-Belle: Fine, fine. No more door opening. Who would’ve thought you’d be such a scaredy cat that even sunlight scares you. That explains why you’re so pale now, we used to be the same color, you know!
+Belle: Fine, fine. No more door opening. Who would've thought you'd be such a scaredy cat that even sunlight scares you.
+Belle: That explains why you're so pale now, we used to be the same color, you know!
 Daisy (grumpy): Stop lecturing me!
 Belle: Stop being so lecturable! Lunch is almost ready.
 Daisy: It smells nice. What you cooking?
-Belle: Just the good ol’ pasta recipe mom used to make. I had to add some extra spices for good measure. You know how bad of a cook she used to be.
+Belle: Just the good ol' pasta recipe mom used to make. I had to add some extra spices for good measure. You know how bad of a cook she used to be.
 Daisy: I remember it well… Hm…
 Belle: Hm? Why the long face?
-Daisy (hesitant): Uhm, it’s just, now that you mentioned… can I ask you something? About our parents…
+Daisy (hesitant): Uhm, it's just, now that you mentioned… can I ask you something? About our parents…
 Belle (wary): What about them?
 Daisy: Did our parents do anything to you?
 Belle: What do you mean?
 Daisy: To make you leave, I mean. Did they hurt you?
-Belle (thinking): If they hurt me? Hm… No, they didn’t. They were pretty normal with me.
-Daisy: You sure? They’re not known for being good at parenting at all.
-Belle: Being bad at parenting is still their normal. I guess they were a little more overprotective of me, you know… so I wouldn’t turn out like you.
+Belle (thinking): If they hurt me? Hm… No, they didn't. They were pretty normal with me.
+Daisy: You sure? They're not known for being good at parenting at all.
+Belle: Being bad at parenting is still their normal. I guess they were a little more overprotective of me, you know… so I wouldn't turn out like you.
 Daisy: Then… why did you leave?
 Belle (bitter): … I never forgave them for what they did to you.
 Daisy: I see…
 Belle: What?
 Daisy: …Hm?
-Belle: You clearly have something to say, don’t you?
-Daisy: Belle, let’s just change the subject.
+Belle: You clearly have something to say, don't you?
+Daisy: Belle, let's just change the subject.
 Belle (accusing): That face again…
 Daisy (pleading): Isabelle, please, listen to me.
-Belle (angry): No, you listen! You’re thinking that I’m a moron, aren’t you?! You always think you’re better than me. You’re always the one being praised. Always the best sibling.
+Belle (angry): No, you listen! You're thinking that I'm a moron, aren't you?! You always think you're better than me. You're always the one being praised. Always the best sibling.
 Daisy: …
 Belle (shouting): You know how they talked about you when you were gone? Like you were their most prized possession. Like you were their perfect son. Like you had so much potential and yet you threw it all away to become a fucking tranny.
 Daisy (quiet): …
-Belle: You know how it feels to never be chosen? To never be acknowledged? You fucking don’t!
+Belle: You know how it feels to never be chosen? To never be acknowledged? You fucking don't!
 Daisy: Belle…
 Belle: You had everything I ever wanted and you WASTED IT!
+
 [audio path="res://audio/sfx/slam.wav"]
+
 Daisy: Belle!
 Belle (screaming): WHAT?!
 Daisy (soft): The pasta… You burned it…
 Belle (deflated): … Fuck me, I guess. Not even good enough for a goddamned pasta.
 Daisy: …
 Belle: …
-Daisy: I’m sorry.
+Daisy: I'm sorry.
 Belle (sarcastic): You sure are… now go eat your burned pasta. It was… made with love!
-Daisy (teary): I’m sorry…
+Daisy (teary): I'm sorry…
 Belle (sighing): Come here, you crybaby.
 update Belle center [move_time="0.4"]
-Daisy (sobbing): I’m sorry.
-Belle (comforting): Hush, hush now. Don’t bother with it. Just don’t distract me next time.
-Daisy: I’m sorry.
-Belle: It’s okay. It’s okay. It’s all gonna be okay…
+Daisy (sobbing): I'm sorry.
+Belle (comforting): Hush, hush now. Don't bother with it. Just don't distract me next time.
+Daisy: I'm sorry.
+Belle: It's okay. It's okay. It's all gonna be okay…
 
 set {PastaBurned} = true
+
 [end_timeline]

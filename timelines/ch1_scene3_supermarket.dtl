@@ -1,41 +1,45 @@
+# ch1_scene3_supermarket.dtl
 label start
+
 [background path="res://backgrounds/supermarket.png" fade="1.0"]
 join Belle (bored) right
 join Daisy (neutral) left
 
 Belle (groaning): Ughnn! How long is this gonna take?
-Daisy: There’s a lot of prices I need to compare and brands I need to research, so probably the whole day.
+Daisy: There's a lot of prices I need to compare and brands I need to research, so probably the whole day.
 Belle (exasperated): The whole day?! Who spends that much time in a shitty supermarket?!
 Daisy: From now on, you.
-Belle (protesting): You can’t do this to me, Days. There are worse torture methods than this.
-Daisy (losing temper): Belle… how about you just shut up and just let me work? Besides, after I get these sheets done, it’ll be a whole lot quicker.
-Belle (curious): Sheets?! Like, those excel shit and all? Glad to know you’re still the same smart ass of before.
-Daisy: Being a ‘smart ass’ is literally my job, the best a high school degree could offer for now. What if instead of being such a brat, you could help me with those damn groceries that being a smart ass pays, huh?
+Belle (protesting): You can't do this to me, Days. There are worse torture methods than this.
+Daisy (losing temper): Belle… how about you just shut up and just let me work? Besides, after I get these sheets done, it'll be a whole lot quicker.
+Belle (curious): Sheets?! Like, those excel shit and all? Glad to know you're still the same smart ass of before.
+Daisy: Being a 'smart ass' is literally my job, the best a high school degree could offer for now.
+Daisy: What if instead of being such a brat, you could help me with those damn groceries that being a smart ass pays, huh?
 Belle (muttering): At least you have a high school degree.
 Daisy (startled): … what?
-Belle (defiant): ‘What’ what, big brain? Why are you asking if you are ‘The all-knowing amazing smart ass’?
+Belle (defiant): 'What' what, big brain? Why are you asking if you are 'The all-knowing amazing smart ass'?
 Daisy: You… dropped out of school?
 Belle (careless): Oh… I may have… forgotten to tell you this.
 Daisy: How can you even forget— Ugh, nevermind…
-Belle: Relax, sis! It’s no biggie!
+Belle: Relax, sis! It's no biggie!
 Daisy (silent): …
 Belle: Days?
-Daisy (sad): Why? You’ve always been so skilled.
-Belle (hesitant): I… Uhm… I just… couldn’t do it, you know? It was just… too much, I guess.
+Daisy (sad): Why? You've always been so skilled.
+Belle (hesitant): I… Uhm… I just… couldn't do it, you know? It was just… too much, I guess.
 Daisy: …
-Belle (hurt): It’s not like you’d understand. You’ve always been the smart one, not me.
+Belle (hurt): It's not like you'd understand. You've always been the smart one, not me.
 Daisy: …
-Belle (angry): Stop looking at me like that! Don’t even start that bullshit.
-Daisy: But I’m not… I just… Ugh! Forget it… let’s just get back to it.
-Belle: Let me guess, you’re thinking just how you are so much better than me.
-Daisy (defensive): What? I’m not!
+Belle (angry): Stop looking at me like that! Don't even start that bullshit.
+Daisy: But I'm not… I just… Ugh! Forget it… let's just get back to it.
+Belle: Let me guess, you're thinking just how you are so much better than me.
+Daisy (defensive): What? I'm not!
 Belle (shouting): Then stop looking at me like that!
 Daisy (shouting back): Like. What?!
-Belle (turning away): …Nothing. You’re right, let’s just get back to it already. I don’t want to spend the whole night here either.
+Belle (turning away): …Nothing. You're right, let's just get back to it already. I don't want to spend the whole night here either.
 Daisy (quiet): …
 Belle: …
-Daisy: …I’m sorry.
-Belle (soft): It’s okay…
+Daisy: …I'm sorry.
+Belle (soft): It's okay…
 Daisy: …
 Belle: …
+
 [end_timeline]

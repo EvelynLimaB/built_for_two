@@ -1,4 +1,6 @@
+# ch2_scene3_park_confession.dtl
 label start
+
 [background path="res://backgrounds/park.png" fade="1.0"]
 join Daisy (sad) left
 join Belle (downcast) right
@@ -24,14 +26,19 @@ Belle: I knew what those extra singing lessons were. I knew what he wanted to do
 Daisy: Belle…
 Belle (sobbing): I… I‑I liked it. I liked being the favourite for once. I liked feeling special. I liked feeling desired. I‑I loved it… I loved… him.
 Daisy (crying): Oh… God… no… Belle that's not…
-Belle: IT'S MY FAULT!!! HE WASN'T FORCING HIMSELF ONTO ME, I WANTED IT!!! You don't know what it's like… he was the first one to tell me I was special… I… I miss it. I miss… him.
+Belle: IT'S MY FAULT!!! HE WASN'T FORCING HIMSELF ONTO ME, I WANTED IT!!!
+Belle: You don't know what it's like… he was the first one to tell me I was special… I… I miss it. I miss… him.
 Daisy (wailing): fuck… Belle… I'm so fucking sorry…
-Belle: If you hadn't barged in that day… If you hadn't been such a nosy bitch, you… you'd have been fine. No one would have known you were a girl… You'd still have your paid scholarship… You'd still have a bright future ahead of you. But no… no… NO… YOU HAD TO FUCKING HIT HIS HEAD WITH THAT GLASS, HADN'T YOU?! YOU HAD TO LET YOUR WEAK FAT ASS BE RAPED!!! YOU HAD TO MAKE OUR ENTIRE HOMETOWN THINK YOU WERE GROOMING ME!!! YOU DESTROYED YOUR ENTIRE FUTURE AND FOR WHAT?!?! HUH?!?! FOR NOTHING!!! … for nothing…
-Daisy (screaming): IT WASN'T FOR NOTHING!!! IT WAS FOR YOU!!! ALL I EVER DID WAS FOR YOU!!! … you weren't just special, you were everything to me. I was in pain for months. I bled every single fucking day. No one believed me… No one… just you… and they took you away from me!!! I missed you so much…
+Belle: If you hadn't barged in that day… If you hadn't been such a nosy bitch, you… you'd have been fine. No one would have known you were a girl… You'd still have your paid scholarship… You'd still have a bright future ahead of you.
+Belle: But no… no… NO… YOU HAD TO FUCKING HIT HIS HEAD WITH THAT GLASS, HADN'T YOU?! YOU HAD TO LET YOUR WEAK FAT ASS BE RAPED!!! YOU HAD TO MAKE OUR ENTIRE HOMETOWN THINK YOU WERE GROOMING ME!!!
+Belle: YOU DESTROYED YOUR ENTIRE FUTURE AND FOR WHAT?!?! HUH?!?! FOR NOTHING!!! … for nothing…
+Daisy (screaming): IT WASN'T FOR NOTHING!!! IT WAS FOR YOU!!! ALL I EVER DID WAS FOR YOU!!!
+Daisy: … you weren't just special, you were everything to me. I was in pain for months. I bled every single fucking day. No one believed me… No one… just you… and they took you away from me!!! I missed you so much…
 Belle (softening): Day… You're a fucking moron…
 Daisy (weary): I know… do you know… what my plan was?
 Belle: What plan?
-Daisy: After I graduated high‑school, I planned to ask you to live with me. I always wanted us to be together. It wouldn't be easy, for sure, but… I wanted to take you away from our parents. I wanted you to grow up in a household filled with love – not whatever our parents expected from us. That's why I was always trying so hard, you know? I wanted to be good enough… for both of us… so you wouldn't have to suffer anymore.
+Daisy: After I graduated high‑school, I planned to ask you to live with me. I always wanted us to be together. It wouldn't be easy, for sure, but… I wanted to take you away from our parents.
+Daisy: I wanted you to grow up in a household filled with love – not whatever our parents expected from us. That's why I was always trying so hard, you know? I wanted to be good enough… for both of us… so you wouldn't have to suffer anymore.
 Belle (voice breaking): I… I don't believe it… I‑I– Fuck… I hate you so much…
 Daisy (soft smile): Don't hate your big sis, Belle… you know I really love you, right?
 Belle (sobbing): I'm so, so sorry, Days… I‑I don't even know how to repay you, I… fuck, I–
@@ -39,4 +46,5 @@ Daisy (gentle): I just need you to cook, my beautiful Babybell… Just that. Lea
 Belle: It just feels so… unfair… I‑
 Daisy: It is not! Listen to me, girl… It's okay. Let's go home, Belle. Our home. Why don't you cook us that pasta again? I swear I won't distract you this time.
 Belle: (sob) Okay… I'll do my best.
+
 [end_timeline]

@@ -1,11 +1,24 @@
+# ch2_scene5_dark_thoughts.dtl
 label start
+
 [background path="res://backgrounds/daisy_apartment.png" fade="1.0"]
 leave Daisy
+
 Belle (alone): ...
 
-Narrator: It's your fault, you know that, right? If you hadn't freaked out earlier, you'd both be nice and cozy. Better yet, if you had never come here in the first place, she wouldn't have to deal with your bullshit. Isabelle, you're a fucking disgrace. I bet you wish she'd just run away and let them have fun with you, don't you? I bet you wish they would teach you a lesson for being such a bad girl, don't you? I bet you wish they'd break you and leave you to bleed at the nearest dumpster, don't you? But no… She saved you once again. A dumb, innocent and weak little bunny that needs to be saved again and again and again. Because she loves you so much, right? She will grow tired of you. It may take a while, but someday, she will notice. She will notice how much of a dead weight you are. And when that day comes… you will be alone. And you know what happens after that? Another wolf will come. It will offer you food and a place to stay. It will give you its time and attention. But then… it will get hungry… it will devour you. Rip your flesh straight out of your bones. Pull your guts out of your belly. Dump your body in a yard full of petals. There's no salvation for you, little bunny. Just await for the time when the Bell tolls for thee. It will come as shortly as the length of your tail. You hear me, Isabelle? Even the air coming in and out of your lungs is wasted on a creature so futile and revolting. Not even your dismembered foot would be a sign of good luck. DO YOU HEAR ME, ISABELLE?! Let's play a game. Walk towards the drawer, grab the sharpest knife you can find. cover yourself head to toe with super sexy scars, right? That's what you want, right? That's what you ever wanted, right? Catch the damned rabbit, Isabelle. C A T C H ! ! !
+Narrator: It's your fault, you know that, right? If you hadn't freaked out earlier, you'd both be nice and cozy. Better yet, if you had never come here in the first place, she wouldn't have to deal with your bullshit.
+Narrator: Isabelle, you're a fucking disgrace. I bet you wish she'd just run away and let them have fun with you, don't you? I bet you wish they would teach you a lesson for being such a bad girl, don't you?
+Narrator: I bet you wish they'd break you and leave you to bleed at the nearest dumpster, don't you? But no… She saved you once again. A dumb, innocent and weak little bunny that needs to be saved again and again and again.
+Narrator: Because she loves you so much, right? She will grow tired of you. It may take a while, but someday, she will notice. She will notice how much of a dead weight you are.
+Narrator: And when that day comes… you will be alone. And you know what happens after that? Another wolf will come. It will offer you food and a place to stay. It will give you its time and attention.
+Narrator: But then… it will get hungry… it will devour you. Rip your flesh straight out of your bones. Pull your guts out of your belly. Dump your body in a yard full of petals.
+Narrator: There's no salvation for you, little bunny. Just await for the time when the Bell tolls for thee. It will come as shortly as the length of your tail. You hear me, Isabelle?
+Narrator: Even the air coming in and out of your lungs is wasted on a creature so futile and revolting. Not even your dismembered foot would be a sign of good luck.
+Narrator: DO YOU HEAR ME, ISABELLE?! Let's play a game. Walk towards the drawer, grab the sharpest knife you can find. cover yourself head to toe with super sexy scars, right?
+Narrator: That's what you want, right? That's what you ever wanted, right? Catch the damned rabbit, Isabelle. C A T C H ! ! !
 
 join Daisy (concerned) left [move_time="0.5"]
+
 Daisy (concerned): Belle…? What are you doing?
 Belle (dazed): … Huh? I‑I was… just… Cooking!
 Daisy (relieved): Oh… Have you started yet? I was gonna ask if you wanted to have something delivered…
@@ -20,4 +33,5 @@ Daisy: Okay… I'll order us some sushi. You like sushi, right?
 Belle (faint smile): Yeah…
 Daisy: Perfect. I'll be in my room finishing some work, but I'll leave my door open this time, okay? Call me if you need anything.
 Belle (quiet): Ok…
+
 [end_timeline]
