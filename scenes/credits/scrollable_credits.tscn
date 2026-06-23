@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://de6435c20h0yu"]
+
+[ext_resource type="Script" uid="uid://2pkh1284bsr2" path="res://scenes/credits/scrollable_credits.gd" id="1_xoaw6"]
+[ext_resource type="PackedScene" uid="uid://nqa4yyv37mk1" path="res://scenes/credits/credits_label.tscn" id="2_s1bbb"]
+
+[node name="ScrollableCredits" type="Control" unique_id=1649718614]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xoaw6")
+
+[node name="CreditsLabel" parent="." unique_id=967293869 instance=ExtResource("2_s1bbb")]
+unique_name_in_owner = true
+layout_mode = 1
+fit_content = false
+scroll_active = true
