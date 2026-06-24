@@ -1,21 +1,26 @@
+# main_menu_with_animations.gd
 extends MainMenu
 ## Main menu extension that adds options and animates the title and menu fading in.
 ## The scene adds a 'Continue' button if a game is in progress.
 ## The animation can be skipped by the player with any input.
 
-## Optional scene to open when the player clicks a 'Level Select' button.
+## Optional scene to open when the player clicks a 'Chapter Select' button.
 @export var chapter_select_packed_scene: PackedScene
 ## If true, have the player confirm before starting a new game if a game is in progress.
 @export var confirm_new_game : bool = true
 
 var animation_state_machine : AnimationNodeStateMachinePlayback
 
-@onready var continue_game_button = %ContinueGameButton
-@onready var chapter_select_button = %LevelSelectButton
-@onready var new_game_confirmation = %NewGameConfirmation
+# ✅ REMOVED: @onready var continue_game_button = %ContinueGameButton
+# ✅ REMOVED: @onready var chapter_select_button = %LevelSelectButton
+# ✅ REMOVED: @onready var new_game_confirmation = %NewGameConfirmation
 
 func load_game_scene() -> void:
 	GameState.start_game()
+	super.load_game_scene()
+
+func load_selected_chapter() -> void:
+	# Don't call start_game() - just load the scene
 	super.load_game_scene()
 
 func new_game() -> void:
@@ -73,7 +78,7 @@ func _on_continue_game_button_pressed() -> void:
 func _on_chapter_select_button_pressed() -> void:
 	var chapter_select_scene := _open_sub_menu(chapter_select_packed_scene)
 	if chapter_select_scene.has_signal("chapter_selected"):
-		chapter_select_scene.connect("chapter_selected", load_game_scene)
+		chapter_select_scene.connect("chapter_selected", load_selected_chapter)
 
 func _on_new_game_confirmation_confirmed() -> void:
 	GameState.reset()

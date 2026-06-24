@@ -101,16 +101,15 @@ static func continue_game() -> void:
 	
 	save()
 
-static func reset_game() -> void:
+static func reset() -> void:
 	var game_state := get_or_create_state()
-	game_state.chapter_states.clear()
+	game_state.chapter_states = {}
 	game_state.current_chapter_path = "res://scenes/game_scene/levels/chapter_1.tscn"
 	game_state.checkpoint_chapter_path = ""
-	game_state.unlocked_chapters = ["ch1"]
+	game_state.unlocked_chapters = ["ch1"]  # ✅ Reset unlocks
 	game_state.play_time = 0
 	game_state.total_time = 0
-	game_state.total_games_played = 0
-	save()
+	GlobalState.save()
 
 # --- UI Helpers ---
 static func get_chapters_reached() -> int:

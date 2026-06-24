@@ -3,7 +3,7 @@ extends Control
 
 ## Loads a simple ItemList node within a margin container. SceneLister updates
 ## the available scenes in the directory provided. Activating a chapter will update
-## the GameState's current_level, and emit a signal. The main menu node will trigger
+## the GameState's current_chapter, and emit a signal. The main menu node will trigger
 ## a load action from that signal.
 
 signal chapter_selected
@@ -26,9 +26,9 @@ func add_chapters_to_container() -> void:
 	
 	# Define all available chapter paths
 	var all_chapter_paths = [
-		"res://scenes/game_scene/levels/chapter_1.tscn",
-		"res://scenes/game_scene/levels/chapter_2.tscn",
-		"res://scenes/game_scene/levels/chapter_3.tscn",
+		"res://scenes/game_scene/chapters/chapter_1.tscn",
+		"res://scenes/game_scene/chapters/chapter_2.tscn",
+		"res://scenes/game_scene/chapters/chapter_3.tscn",
 	]
 	
 	# Add each chapter to the ItemList
@@ -61,7 +61,7 @@ func _on_chapter_buttons_container_item_activated(index: int) -> void:
 	if chapter_buttons_container.is_item_disabled(index):
 		return
 	
-	# Set the checkpoint level path in GameState
+	# Set the checkpoint chapter path in GameState
 	var game_state = GameState.get_or_create_state()
 	game_state.current_chapter_path = chapter_paths[index]
 	game_state.checkpoint_chapter_path = chapter_paths[index]
