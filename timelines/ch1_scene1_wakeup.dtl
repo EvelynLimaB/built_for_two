@@ -24,8 +24,7 @@ Daisy (shocked): AAAAFUCK!
 Daisy (hurt): I hate razors. …fuck.
 Daisy (walking): Have I ordered anything? Why is someone ringing my door…
 Daisy (surprised): Belle?!
-
-[audio path="res\://audio/sfx/door_open.wav"]
+audio "res://audio/sfx/door_open.wav"
 join Belle (neutral) right [animation="Fade Up" wait="true"]
 
 Daisy (happy): Belle!

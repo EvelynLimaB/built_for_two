@@ -4,8 +4,9 @@ extends MainMenu
 ## The scene adds a 'Continue' button if a game is in progress.
 ## The animation can be skipped by the player with any input.
 
-func load_game_scene() -> void:
-	GameState.start_game()
+func load_game_scene(start_new_game: bool = false) -> void:
+	if start_new_game:
+		GameState.start_game()
 	super.load_game_scene()
 
 func load_selected_chapter() -> void:
@@ -51,7 +52,9 @@ func _show_chapter_select_if_set() -> void:
 	chapter_select_button.show()
 
 func _show_continue_if_set() -> void:
-	if GameState.get_current_chapter_path().is_empty(): return
+	var slot := Dialogic.Save.get_default_slot()
+	if not Dialogic.Save.has_slot(slot):
+		return
 	continue_game_button.show()
 
 func _ready() -> void:
@@ -62,13 +65,22 @@ func _ready() -> void:
 
 func _on_continue_game_button_pressed() -> void:
 	GameState.continue_game()
-	load_game_scene()
+	var slot := Dialogic.Save.get_default_slot()
+	
+	if not Dialogic.Save.has_slot(slot):
+		return
+	load_game_scene(false)
+	call_deferred("_restore_dialogic_save", slot)
+
+func _restore_dialogic_save(slot: String) -> void:
+	Dialogic.Save.load(slot)
+
+func _on_new_game_confirmation_confirmed() -> void:
+	GameState.reset()
+	Dialogic.Save.reset_slot()
+	load_game_scene(true)
 
 func _on_chapter_select_button_pressed() -> void:
 	var chapter_select_scene := _open_sub_menu(chapter_select_packed_scene)
 	if chapter_select_scene.has_signal("chapter_selected"):
 		chapter_select_scene.connect("chapter_selected", load_selected_chapter)
-
-func _on_new_game_confirmation_confirmed() -> void:
-	GameState.reset()
-	load_game_scene()
