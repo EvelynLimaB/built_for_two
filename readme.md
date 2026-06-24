@@ -12,7 +12,7 @@
 
 ## 🖤 THE VIBE
 
-**Daisy** is a ghost who pays rent. She codes, she doomscrolls, she hugs her plushies at night. She survived something that should've killed her, but *surviving* and *living* are two very different things. She's terrified of men, terrified of intimacy, and *terrified* that the only person she's ever really loved will look at her and see a monster.
+**Daisy** is like a ghost who pays rent. She codes, she doomscrolls, she hugs her plushies at night. She survived something that should've killed her, but *surviving* and *living* are two very different things. She's terrified of men, terrified of intimacy, and *terrified* that the only person she's ever really loved will look at her and see a monster.
 
 **Belle** is a runaway who's been running so long she forgot what she was running from. Or maybe she remembers too well. She survives on charm, lies, and a body she learned to weaponize before she understood what that meant. She knows she's broken. She knows she's self-destructive. She *knows* she's making everything worse. She just can't stop.
 
