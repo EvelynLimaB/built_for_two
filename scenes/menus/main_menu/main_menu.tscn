@@ -21,11 +21,6 @@ script = ExtResource("1_627ab")
 game_scene_path = "uid://c7r7doq6m6mke"
 options_packed_scene = ExtResource("3_0emlv")
 credits_packed_scene = ExtResource("4_6eo4l")
-confirm_exit = true
-signal_game_start = false
-signal_game_exit = false
-chapter_select_packed_scene = null
-confirm_new_game = true
 
 [node name="UISoundController" type="Node" parent="." unique_id=1619985599]
 script = ExtResource("4_7j6ce")
@@ -131,21 +126,21 @@ visible = false
 layout_mode = 2
 text = "Continue"
 
-[node name="LevelSelectButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" unique_id=1348895676]
+[node name="ChapterSelectButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" unique_id=1348895676]
 unique_name_in_owner = true
 visible = false
 layout_mode = 2
-text = "Level Select"
+text = "Chapter Select"
 
 [node name="OptionsButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" unique_id=1486236076]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Options"
 
-[node name="CreditsButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" unique_id=301223169]
+[node name="ExtrasButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" unique_id=301223169]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Credits"
+text = "Extras"
 
 [node name="ExitButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" unique_id=1750454379]
 unique_name_in_owner = true
@@ -213,9 +208,9 @@ title_visible = false
 
 [connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/NewGameButton" to="." method="_on_new_game_button_pressed"]
 [connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/ContinueGameButton" to="." method="_on_continue_game_button_pressed"]
-[connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/LevelSelectButton" to="." method="_on_level_select_button_pressed"]
+[connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/ChapterSelectButton" to="." method="_on_chapter_select_button_pressed"]
 [connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/OptionsButton" to="." method="_on_options_button_pressed"]
-[connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/CreditsButton" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/ExtrasButton" to="." method="_on_credits_button_pressed"]
 [connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
 [connection signal="confirmed" from="NewGameConfirmation" to="." method="_on_new_game_confirmation_confirmed"]
 [connection signal="confirmed" from="ExitConfirmation" to="." method="_on_exit_confirmation_confirmed"]

@@ -3,43 +3,43 @@ class_name LevelLoader
 extends Node
 ## Loads scenes into a container.
 
-signal level_load_started
-signal level_loaded
-signal level_ready
+signal chapter_load_started
+signal chapter_loaded
+signal chapter_ready
 
-## Container where the level instance will be added.
-@export var level_container : Node
+## Container where the chapter instance will be added.
+@export var chapter_container : Node
 ## Optional reference to a loading screen in the scene.
-@export var level_loading_screen : LoadingScreen
+@export var chapter_loading_screen : LoadingScreen
 @export_group("Debugging")
-@export var current_level : Node
+@export var current_chapter : Node
 
-var current_level_path : String
+var current_chapter_path : String
 var is_loading : bool = false
 
-func _attach_level(level_resource : Resource):
-	assert(level_container != null, "level_container is null")
-	var instance = level_resource.instantiate()
-	level_container.call_deferred("add_child", instance)
+func _attach_chapter(chapter_resource : Resource):
+	assert(chapter_container != null, "chapter_container is null")
+	var instance = chapter_resource.instantiate()
+	chapter_container.call_deferred("add_child", instance)
 	return instance
 
-func load_level(level_path : String):
+func load_chapter(chapter_path : String):
 	if is_loading : return
-	if is_instance_valid(current_level):
-		current_level.queue_free()
-		await current_level.tree_exited
-		current_level = null
-	current_level_path = level_path
+	if is_instance_valid(current_chapter):
+		current_chapter.queue_free()
+		await current_chapter.tree_exited
+		current_chapter = null
+	current_chapter_path = chapter_path
 	is_loading = true
-	SceneLoader.load_scene(current_level_path, true)
-	if level_loading_screen:
-		level_loading_screen.reset()
-	level_load_started.emit()
+	SceneLoader.load_scene(current_chapter_path, true)
+	if chapter_loading_screen:
+		chapter_loading_screen.reset()
+	chapter_load_started.emit()
 	await SceneLoader.scene_loaded
 	is_loading = false
-	current_level = _attach_level(SceneLoader.get_resource())
-	if level_loading_screen:
-		level_loading_screen.close()
-	level_loaded.emit()
-	await current_level.ready
-	level_ready.emit()
+	current_chapter = _attach_chapter(SceneLoader.get_resource())
+	if chapter_loading_screen:
+		chapter_loading_screen.close()
+	chapter_loaded.emit()
+	await current_chapter.ready
+	chapter_ready.emit()

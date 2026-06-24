@@ -26,10 +26,10 @@ focused_viewport = NodePath("../ViewportContainer/ConfigurableSubViewport")
 
 [node name="BackgroundMusicPlayer" parent="." unique_id=986713811 instance=ExtResource("3_cm6at")]
 
-[node name="LevelLoader" type="Node" parent="." unique_id=1047451806 node_paths=PackedStringArray("level_container", "level_loading_screen")]
+[node name="LevelLoader" type="Node" parent="." unique_id=1047451806 node_paths=PackedStringArray("chapter_container", "chapter_loading_screen")]
 script = ExtResource("4_72q1f")
-level_container = NodePath("../ViewportContainer/ConfigurableSubViewport")
-level_loading_screen = NodePath("../LevelLoadingScreen")
+chapter_container = NodePath("../ViewportContainer/ConfigurableSubViewport")
+chapter_loading_screen = NodePath("../LevelLoadingScreen")
 
 [node name="LevelManager" type="Node" parent="." unique_id=1350972375 node_paths=PackedStringArray("chapter_loader", "scene_lister")]
 script = ExtResource("5_mkrcq")

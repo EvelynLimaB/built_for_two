@@ -2,12 +2,6 @@ extends MainMenu
 ## Main menu extension that adds options.
 ## The scene adds a 'Continue' button if a game is in progress.
 
-## Optional scene to open when the player clicks a 'Level Select' button.
-@export var chapter_select_packed_scene: PackedScene
-## If true, have the player confirm before starting a new game if a game is in progress.
-@export var confirm_new_game : bool = true
-
-
 func load_game_scene() -> void:
 	GameState.start_game()
 	super.load_game_scene()

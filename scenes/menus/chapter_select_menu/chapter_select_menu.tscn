@@ -22,7 +22,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("2_6dur4")
 
-[node name="LevelButtonsContainer" type="ItemList" parent="Control" unique_id=17921809]
+[node name="ChapterButtonsContainer" type="ItemList" parent="Control" unique_id=17921809]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(400, 0)
 layout_mode = 1
@@ -46,4 +46,4 @@ script = ExtResource("3_a7qkf")
 files = Array[String](["res://scenes/game_scene/chapters/chapter_1.tscn", "res://scenes/game_scene/chapters/chapter_2.tscn", "res://scenes/game_scene/chapters/chapter_3.tscn"])
 directory = "res://scenes/game_scene/chapters"
 
-[connection signal="item_activated" from="Control/LevelButtonsContainer" to="." method="_on_level_buttons_container_item_activated"]
+[connection signal="item_activated" from="Control/ChapterButtonsContainer" to="." method="_on_chapter_buttons_container_item_activated"]

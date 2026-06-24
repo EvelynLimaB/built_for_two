@@ -8,7 +8,7 @@ signal level_changed(level_path : String)
 @export_file("*.tscn") var next_level_path : String
 
 func _ready():
-	Dialogic.start("res://timelines/ch2_master.dtl")
+	Dialogic.start("res://timelines/ch2_scene1_balcony.dtl")
 	Dialogic.timeline_ended.connect(_on_dialogue_ended)
 
 func _on_dialogue_ended():

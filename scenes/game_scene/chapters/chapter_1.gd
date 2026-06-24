@@ -14,6 +14,7 @@ func _ready():
 func _on_dialogue_ended():
 	# Unlock next chapter
 	var game_state = GameState.get_or_create_state()
+	@warning_ignore("static_called_on_instance")
 	game_state.unlock_chapter("ch2")
 	GlobalState.save()
 	# Tell LevelManager we're done

@@ -1,7 +1,7 @@
 # ch1_scene3_supermarket.dtl
 label start
 
-[background path="res://backgrounds/supermarket.png" fade="1.0"]
+[background fade="1.0"]
 join Belle (bored) right
 join Daisy (neutral) left
 
@@ -41,5 +41,4 @@ Daisy: …I'm sorry.
 Belle (soft): It's okay…
 Daisy: …
 Belle: …
-
-[end_timeline]
+jump ch1_scene4_home_breakdown/

@@ -95,5 +95,4 @@ Daisy: I'm sorry.
 Belle: It's okay. It's okay. It's all gonna be okay…
 
 set {PastaBurned} = true
-
-[end_timeline]
+jump ch1_scene6_abby_chat/

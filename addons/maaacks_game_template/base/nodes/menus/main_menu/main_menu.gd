@@ -37,7 +37,7 @@ var sub_menu : Control
 var animation_state_machine : AnimationNodeStateMachinePlayback
 
 @onready var continue_game_button = %ContinueGameButton
-@onready var chapter_select_button = %LevelSelectButton
+@onready var chapter_select_button = %ChapterSelectButton
 @onready var new_game_confirmation = %NewGameConfirmation
 
 # ✅ Override load_game_scene to use SceneLoader
@@ -50,7 +50,7 @@ func new_game() -> void:
 	if confirm_new_game and continue_game_button.visible:
 		new_game_confirmation.show()
 	else:
-		GameState.reset_game()
+		GameState.reset()
 		load_game_scene()
 
 # ... rest of your existing functions ...
@@ -87,7 +87,7 @@ func _on_chapter_selected() -> void:
 	load_game_scene()
 
 func _on_new_game_confirmation_confirmed() -> void:
-	GameState.reset_game()
+	GameState.reset()
 	load_game_scene()
 
 func get_game_scene_path() -> String:

@@ -57,7 +57,7 @@ variables={
 "PastaBurned": false
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://assets/theme/Belle.tres", ""]
+layout/style_list=["res://assets/theme/Belle.tres"]
 layout/default_style="res://assets/theme/dialogic_theme.tres"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
@@ -82,7 +82,7 @@ history/simple_history_save=true
 save/autosave=true
 save/autosave_mode=2
 layout/end_behaviour=2
-timer/process_in_physics=true
+timer/process_in_physics=false
 text/autopauses={
 "!?;:.,": 0.15000000000000002
 }

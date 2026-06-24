@@ -4,17 +4,6 @@ extends MainMenu
 ## The scene adds a 'Continue' button if a game is in progress.
 ## The animation can be skipped by the player with any input.
 
-## Optional scene to open when the player clicks a 'Chapter Select' button.
-@export var chapter_select_packed_scene: PackedScene
-## If true, have the player confirm before starting a new game if a game is in progress.
-@export var confirm_new_game : bool = true
-
-var animation_state_machine : AnimationNodeStateMachinePlayback
-
-# ✅ REMOVED: @onready var continue_game_button = %ContinueGameButton
-# ✅ REMOVED: @onready var chapter_select_button = %LevelSelectButton
-# ✅ REMOVED: @onready var new_game_confirmation = %NewGameConfirmation
-
 func load_game_scene() -> void:
 	GameState.start_game()
 	super.load_game_scene()
