@@ -63,8 +63,8 @@ func _on_chapter_buttons_container_item_activated(index: int) -> void:
 	
 	# Set the checkpoint level path in GameState
 	var game_state = GameState.get_or_create_state()
-	game_state.current_level_path = chapter_paths[index]
-	game_state.checkpoint_level_path = chapter_paths[index]
+	game_state.current_chapter_path = chapter_paths[index]
+	game_state.checkpoint_chapter_path = chapter_paths[index]
 	GlobalState.save()
 	
 	# Emit signal so main menu can load the chapter

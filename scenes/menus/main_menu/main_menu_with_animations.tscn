@@ -3,7 +3,6 @@
 [ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_game_template/base/nodes/menus/main_menu/main_menu.tscn" id="1_nyjay"]
 [ext_resource type="Script" uid="uid://dyfefguoo1s0c" path="res://scenes/menus/main_menu/main_menu_with_animations.gd" id="2_f368h"]
 [ext_resource type="PackedScene" uid="uid://c4lnoywjwqquu" path="res://scenes/windows/main_menu_options_window.tscn" id="3_85otm"]
-[ext_resource type="PackedScene" uid="uid://dx45pwmj8s0yb" path="res://scenes/menus/chapter_select_menu/chapter_select_menu.tscn" id="3_ixa71"]
 [ext_resource type="PackedScene" uid="uid://bx63qv2p6dqtr" path="res://scenes/windows/main_menu_credits_window.tscn" id="4_c2gs8"]
 [ext_resource type="PackedScene" uid="uid://cwt4p3bufkke5" path="res://addons/maaacks_game_template/base/nodes/windows/confirmation_overlaid_window.tscn" id="5_gr2o1"]
 
@@ -317,14 +316,13 @@ graph_offset = Vector2(-180.277, 49)
 
 [node name="MainMenu" unique_id=589811630 instance=ExtResource("1_nyjay")]
 script = ExtResource("2_f368h")
-level_select_packed_scene = ExtResource("3_ixa71")
-confirm_new_game = null
 game_scene_path = "uid://c7r7doq6m6mke"
 options_packed_scene = ExtResource("3_85otm")
 credits_packed_scene = ExtResource("4_c2gs8")
 confirm_exit = null
 signal_game_start = null
 signal_game_exit = null
+confirm_new_game = null
 
 [node name="MenuAnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=1492532975]
 libraries/ = SubResource("AnimationLibrary_2kqig")
