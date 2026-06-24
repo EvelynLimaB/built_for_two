@@ -1,8 +1,8 @@
 # ch2_scene1_balcony.dtl
 label start
 
-[background path="res://backgrounds/balcony_night.png" fade="1.0"]
-leave Abby
+[background fade="1.0"]
+leave 
 join Belle (neutral) left
 
 Belle (smoking): What a week, huh…
@@ -31,6 +31,5 @@ Narrator: So well‑behaved… as always. sigh… She must despise me. She could
 Narrator: I haven't changed one bit, have I…? I'm still the same stupid kid that fell in love with him… I hate this… I hate this so much… I don't want to ruin her again… I don't want to… I don't want to… I don't want to…
 Narrator: … (Belle stops sobbing, starts disassociating)
 Narrator: Sigh… It doesn't really matter, does it? I just need to… buy some time… until I can find another place to crash. She hates you… like everybody else… like everybody… else…
-Narrator: … Ugh… Fuck, what was that all about! I really shouldn't trust my own thoughts past 9:00 PM… I need some sleep.
-
-[end_timeline]
+Narrator: … Ugh… Fuck, what was that all about! I really shouldn't trust my own thoughts past 9\:00 PM… I need some sleep.
+jump ch2_scene2_tv_confrontation/

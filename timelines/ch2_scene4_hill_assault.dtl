@@ -1,7 +1,7 @@
 # ch2_scene4_hill_assault.dtl
 label start
 
-[background path="res://backgrounds/hill_road.png" fade="1.0"]
+[background fade="1.0"]
 update Daisy (tired) left
 update Belle (tired) right
 
@@ -15,8 +15,8 @@ Belle: I told you before, Day. Resting bitch face! Hahahahaha!
 Daisy: Yeah… I guess you're the only one who can make me laugh… Ha ha ha.
 
 audio "res://audio/sfx/footsteps.wav"
-join RandomGuy1 (smirk) left
-join RandomGuy2 (lewd) right
+join  left
+join  right
 
 RandomGuy1: Slap Nice cake you have there, pretty!
 Daisy (freezing): …
@@ -43,13 +43,13 @@ Daisy: 2…
 RandomGuy1: Fuck off, man! Wanna fight? If he wanna pretend to be a woman so much, it's my right to show him what a real man is!
 Daisy (shout): 3!
 
-[background path="res://backgrounds/hill_road_blur.png" fade="0.2"]
-leave RandomGuy1
-leave RandomGuy2
+[background fade="0.2"]
+leave 
+leave 
 update Daisy (running) left [move_time="0.2"]
 update Belle (running) right [move_time="0.2"]
 
-[background path="res://backgrounds/daisy_apartment.png" fade="0.5"]
+[background fade="0.5"]
 
 Daisy (panting): Arf… Huf… Are you… okay?
 Belle (heavy breath): ...
@@ -69,5 +69,4 @@ Daisy (horrified): Oh… God! Please stop talking…
 Belle: Pfff hahahaHaHa!!! What?! It's not like I'm wrong! The only difference is that I wouldn't have to just watch this time, right?
 Daisy (breaking): I'm sorry… I‑I… can't… I can't do this right now. I need… to go to my room. I'm sorry…
 Belle (manic laugh): HA HA HA HA HA Ha Ha ha ha ha… ha… …
-
-[end_timeline]
+jump ch2_scene5_dark_thoughts/

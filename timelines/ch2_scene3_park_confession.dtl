@@ -1,7 +1,7 @@
 # ch2_scene3_park_confession.dtl
 label start
 
-[background path="res://backgrounds/park.png" fade="1.0"]
+[background fade="1.0"]
 join Daisy (sad) left
 join Belle (downcast) right
 
@@ -46,5 +46,4 @@ Daisy (gentle): I just need you to cook, my beautiful Babybell… Just that. Lea
 Belle: It just feels so… unfair… I‑
 Daisy: It is not! Listen to me, girl… It's okay. Let's go home, Belle. Our home. Why don't you cook us that pasta again? I swear I won't distract you this time.
 Belle: (sob) Okay… I'll do my best.
-
-[end_timeline]
+jump ch2_scene4_hill_assault/

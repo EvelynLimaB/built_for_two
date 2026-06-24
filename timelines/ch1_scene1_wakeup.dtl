@@ -7,7 +7,8 @@ join Daisy (neutral) left
 Daisy (sleepy): Uhnn...
 Daisy (sleepy): Whaaht time ish it now??
 Daisy (sleepy): 16\:20?? Just a nap my ass! It's a whole new day…
-Daisy (stretch): I can't rest at all. A few more hours wouldn't make it better I guess.. I gotta pee blehg.
+Daisy: I can't rest at all. A few more hours wouldn't make it better I guess..
+Daisy: I gotta pee blehg.
 
 [background fade="0.8"]
 update Daisy (neutral) center [move_time="0.6" move_ease="in" move_trans="linear"]
@@ -17,7 +18,7 @@ Daisy: How long has it been since I last looked at the mirror?
 Daisy: I need to wash my hair, and shave… I'll deal with my hair later.
 Daisy (thinking): *shaving sound*
 
-[audio path="res\://audio/sfx/doorbell.wav"]
+audio "res://audio/sfx/doorbell.wav"
 
 Daisy (shocked): AAAAFUCK!
 Daisy (hurt): I hate razors. …fuck.
