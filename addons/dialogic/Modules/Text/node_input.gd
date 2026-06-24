@@ -10,7 +10,12 @@ func _ready() -> void:
 	gui_input.connect(_on_gui_input)
 
 
-func _input(_event: InputEvent) -> void:
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("toggle_auto"):
+		Dialogic.Inputs.auto_advance.enabled_until_user_input = not Dialogic.Inputs.auto_advance.enabled_until_user_input
+	
+	if event.is_action_pressed("toggle_skip"):
+		Dialogic.Inputs.auto_skip.enabled = not Dialogic.Inputs.auto_skip.enabled
 	if Input.is_action_pressed(ProjectSettings.get_setting('dialogic/text/input_action', 'dialogic_default_action')):
 		mouse_filter = Control.MOUSE_FILTER_STOP
 	else:
