@@ -77,7 +77,6 @@ static func get_checkpoint_chapter_path() -> String:
 # --- Game Flow ---
 static func start_game() -> void:
 	var game_state := get_or_create_state()
-	game_state.total_games_played += 1
 	
 	# Default to chapter 1 if no chapter is set
 	if game_state.current_chapter_path.is_empty():
@@ -90,16 +89,15 @@ static func start_game() -> void:
 static func continue_game() -> void:
 	var game_state := get_or_create_state()
 	
-	# Use checkpoint if available, otherwise use current chapter
+	# ✅ If there's no checkpoint, fallback to current chapter or chapter 1
 	if not game_state.checkpoint_chapter_path.is_empty():
 		game_state.current_chapter_path = game_state.checkpoint_chapter_path
 	elif game_state.current_chapter_path.is_empty():
-		# Fallback to chapter 1
 		game_state.current_chapter_path = "res://scenes/game_scene/levels/chapter_1.tscn"
-		if not game_state.unlocked_chapters.has("ch1"):
+		if not "ch1" in game_state.unlocked_chapters:
 			game_state.unlocked_chapters.append("ch1")
 	
-	save()
+	GlobalState.save()
 
 static func reset() -> void:
 	var game_state := get_or_create_state()

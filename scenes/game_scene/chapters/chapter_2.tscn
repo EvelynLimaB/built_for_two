@@ -1,13 +1,14 @@
 [gd_scene format=3 uid="uid://pkul7it0ufxp"]
 
-[ext_resource type="Script" uid="uid://6fhja0c64t5b" path="res://scenes/game_scene/chapters/chapter_2.gd" id="1_babkw"]
+[ext_resource type="Script" uid="uid://rvl5l8jkmqx7" path="res://scenes/game_scene/chapters/chapter.gd" id="1_cxpik"]
 
-[node name="Level2" type="Control" unique_id=2110036821]
+[node name="Chapter2" type="Control" unique_id=2110036821]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_babkw")
-next_level_path = "uid://muoewo5besax"
+script = ExtResource("1_cxpik")
+timeline_path = "res://timelines/ch2_scene1_balcony.dtl"
+next_chapter_id = "ch3"

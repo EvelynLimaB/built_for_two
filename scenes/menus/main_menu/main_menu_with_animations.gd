@@ -10,7 +10,6 @@ func load_game_scene(start_new_game: bool = false) -> void:
 	super.load_game_scene()
 
 func load_selected_chapter() -> void:
-	# Don't call start_game() - just load the scene
 	super.load_game_scene()
 
 func new_game() -> void:
@@ -65,12 +64,7 @@ func _ready() -> void:
 
 func _on_continue_game_button_pressed() -> void:
 	GameState.continue_game()
-	var slot := Dialogic.Save.get_default_slot()
-	
-	if not Dialogic.Save.has_slot(slot):
-		return
-	load_game_scene(false)
-	call_deferred("_restore_dialogic_save", slot)
+	continue_game_scene()
 
 func _restore_dialogic_save(slot: String) -> void:
 	Dialogic.Save.load(slot)
@@ -84,3 +78,6 @@ func _on_chapter_select_button_pressed() -> void:
 	var chapter_select_scene := _open_sub_menu(chapter_select_packed_scene)
 	if chapter_select_scene.has_signal("chapter_selected"):
 		chapter_select_scene.connect("chapter_selected", load_selected_chapter)
+
+func continue_game_scene() -> void:
+	super.load_game_scene()  # Just load the scene, no start_game()

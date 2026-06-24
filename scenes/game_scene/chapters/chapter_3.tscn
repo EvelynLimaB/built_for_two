@@ -1,12 +1,13 @@
 [gd_scene format=3 uid="uid://muoewo5besax"]
 
-[ext_resource type="Script" uid="uid://b6qu3leo4voai" path="res://scenes/game_scene/chapters/chapter_3.gd" id="1_4k1yq"]
+[ext_resource type="Script" uid="uid://rvl5l8jkmqx7" path="res://scenes/game_scene/chapters/chapter.gd" id="1_evsj7"]
 
-[node name="Level3" type="Control" unique_id=710690354]
+[node name="Chapter3" type="Control" unique_id=710690354]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_4k1yq")
+script = ExtResource("1_evsj7")
+timeline_path = "res://timelines/ch3_master.dtl"
