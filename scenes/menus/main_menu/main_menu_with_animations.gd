@@ -92,16 +92,6 @@ func _show_continue_if_set() -> void:
 	continue_game_button.show()
 
 ## ============================================================================
-## DIALOGIC SAVE MANAGEMENT
-## ============================================================================
-
-## Restores a Dialogic save from the specified slot.
-## Call this AFTER loading the game scene and the chapter script's _ready().
-func _restore_dialogic_save(slot: String) -> void:
-	if Dialogic.Save.has_slot(slot):
-		Dialogic.Save.load(slot)
-
-## ============================================================================
 ## READY
 ## ============================================================================
 

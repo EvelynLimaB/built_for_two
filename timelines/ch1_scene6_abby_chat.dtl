@@ -15,7 +15,7 @@ audio "res://audio/sfx/computer_beep.wav"
 
 Narrator: Huh? Did I forget to fill up a form – Abby?!
 
-join  right [animation="Fade Up" length="0.3" wait="true"]
+join  center [animation="Fade Up" length="0.3" wait="true"]
 
 Abby: "Hey girl, u good? You always boot up that game when you're messed up."
 Daisy: "U really do know me huh Abs. You free rn?"
@@ -80,4 +80,5 @@ Daisy: "… (logs off)"
 
 Narrator: Perhaps… things will get better from now on.
 
+set {Chapter1Complete} = true
 [end_timeline]

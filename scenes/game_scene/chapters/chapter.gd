@@ -7,7 +7,7 @@ signal level_won
 @export var next_chapter_id: String
 
 func _ready():
-	var save_slot: String = Dialogic.Save.get_default_slot()
+	var save_slot = Dialogic.Save.get_default_slot()
 	
 	if Dialogic.Save.has_slot(save_slot):
 		# Restore from save
@@ -20,5 +20,6 @@ func _ready():
 	Dialogic.timeline_ended.connect(_on_timeline_ended)
 
 func _on_timeline_ended():
-	GameState.unlock_chapter(next_chapter_id)
-	level_won.emit()
+		GameState.unlock_chapter("ch2")
+		print("ch2 unlocked")
+		level_won.emit()

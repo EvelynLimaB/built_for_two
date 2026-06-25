@@ -1,7 +1,7 @@
 # ch1_scene4_home_breakdown.dtl
 label start
 
-[background path="res://backgrounds/daisy_apartment.png" fade="1.0"]
+[background fade="1.0"]
 join Daisy (tired) left
 join Belle (tired) right
 
@@ -22,7 +22,7 @@ Narrator: Fuck… there's so much work I need to do… I spent the last days hel
 Narrator: (Some time passes) UGH! I CAN'T FUCKING CONCENTRATE!!! What do I do? What do I do…?
 Narrator: Hmm… I guess I can try to… relax a little…
 
-[background path="res://backgrounds/daisy_bedroom_night.png" fade="0.8"]
+[background fade="0.8"]
 join Daisy (blushing) center
 
 Daisy (thinking): It's been weeks since I last used one of these… It's weird doing this with someone else at my house but… I don't mind if it's her… Hmm… so tight…
@@ -33,5 +33,4 @@ Narrator: Fuck! It's so good… why do I feel this way…? Is it because of… o
 Daisy (crying softly): Fuck! What the actual FUCK is wrong with me…
 Narrator: Fuck… I hate this so much. I don't want to ruin everything… I don't want to… be like him… I don't want to… I don't want to… I don't want to…
 Daisy (sleeping): ...
-
-[end_timeline]
+jump ch1_scene5_morning_pasta/

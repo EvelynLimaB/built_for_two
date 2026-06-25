@@ -54,6 +54,9 @@ layout/style_directory={
 variables={
 "BelleArrived": false,
 "BelleLivingHere": false,
+"Chapter1Complete": false,
+"Chapter2Complete": false,
+"Chapter3Complete": false,
 "PastaBurned": false
 }
 glossary/default_case_sensitive=true
@@ -81,7 +84,7 @@ history/simple_history_enabled=true
 history/simple_history_save=true
 save/autosave=true
 save/autosave_mode=0
-layout/end_behaviour=2
+layout/end_behaviour=0
 timer/process_in_physics=false
 text/autopauses={
 ".!?": 0.2,
