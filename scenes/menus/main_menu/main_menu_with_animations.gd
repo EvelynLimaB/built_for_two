@@ -90,6 +90,11 @@ func _ready() -> void:
 	_show_chapter_select_if_set()
 	_show_continue_if_set()
 	animation_state_machine = $MenuAnimationTree.get("parameters/playback")
+	var slots = SaveManager.get_all_slots()
+	for slot in slots:
+		var info = SaveManager.get_slot_info(slot)
+		print("Slot: ", slot, " - ", info.get("date", "Sem data"))
+		# Aqui você criaria botões para cada slot
 
 ## ============================================================================
 ## SIGNAL HANDLERS
