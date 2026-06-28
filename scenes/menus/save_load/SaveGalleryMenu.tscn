@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c70sq7ge5y33t"]
+
+[ext_resource type="Script" uid="uid://b7ibtbapjn1l5" path="res://scenes/menus/save_load/save_gallery_menu.gd" id="1_tylal"]
+[ext_resource type="PackedScene" uid="uid://d0kn5il74cmpq" path="res://scenes/menus/save_load/SaveSlotUI.tscn" id="2_agtlr"]
+
+[node name="SaveGalleryMenu" type="Control" unique_id=751286471]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tylal")
+save_slot_scene = ExtResource("2_agtlr")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=717262225]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" unique_id=20467520]
+layout_mode = 2

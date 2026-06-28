@@ -12,16 +12,14 @@ signal game_loaded(slot_name: String)
 func _ready():
 	# Configurar autosave (sempre salva no slot padrão)
 	Dialogic.Save.autosave_enabled = true
-	Dialogic.Save.autosave_mode = Dialogic.Save.AutoSaveMode.ON_TIMER
-	Dialogic.Save.autosave_timer_interval = 60.0
 	Dialogic.Save.saved.connect(_on_saved)
-
+ 
 ## Salva o jogo em um slot específico
 func save_game(slot_name: String = DEFAULT_SLOT, extra_info: Dictionary = {}):
 	var result = Dialogic.Save.save(
 		slot_name,
-		false,  # Sem screenshot
-		Dialogic.Save.ThumbnailMode.NONE,
+		false, 
+		Dialogic.Save.ThumbnailMode.STORE_ONLY, # ✅ Usa a imagem pré-capturada do pause menu
 		extra_info
 	)
 	if result == OK:
@@ -65,7 +63,6 @@ func get_slot_info(slot_name: String = DEFAULT_SLOT) -> Dictionary:
 ## Cria um dicionário com informações extras para salvar
 func create_extra_info() -> Dictionary:
 	return {
-		"text": Dialogic.current_state_info.get("text", ""),
 		"date": Time.get_datetime_string_from_system(false, true),
 		"chapter": GameState.get_current_chapter_path()
 	}

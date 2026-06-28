@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://d0kn5il74cmpq"]
+
+[ext_resource type="Script" uid="uid://eeesu2vdfqds" path="res://scenes/menus/save_load/SaveSlotUI.gd" id="1_gttxh"]
+
+[node name="SaveSlotUI" type="Button" unique_id=2043374209]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gttxh")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=678138535]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1352808154]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer" unique_id=1751636889]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1031305002]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1529425763]
+layout_mode = 2

@@ -34,13 +34,15 @@ Let’s play a game
 [font_size=30]That’s what you want, right?
 [font_size=35]That’s what you ever wanted, right?
 [font_size=40]Catch the damned rabbit, Isabelle.
-[lspeed=0.2][font_size=82][shake rate=30 level=5]C A T C H ! ! ![/shake][/font_size]
+[speed=0.4][font_size=82][shake rate=30 level=5]C A T C H ! ! ![/shake][/font_size]
 [wait_input]
 
 join Daisy (concerned) left [move_time="0.5"]
 
-Daisy (concerned): Belle…? What are you doing?
-Belle (dazed): … Huh? I‑I was… just… Cooking!
+Daisy (concerned): [speed=1] Belle…? [pause=1.0] What are you doing?
+
+# Belle starts out dazed, but forces a fake smile exactly when she says "Cooking!"
+Belle (dazed): … Huh? I‑I was… just… [pause=0.5][portrait=fake_smile]Cooking!
 Daisy (relieved): Oh… Have you started yet? I was gonna ask if you wanted to have something delivered…
 Belle: N…No, I haven't started it yet.
 Daisy: Do you want to have something in particular? I figured we could afford some take out once in a while.
