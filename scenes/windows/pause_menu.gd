@@ -27,7 +27,7 @@ extends OverlaidWindow
 var open_window : Node
 
 # ✅ THE FIX: Tracks the exact engine frame the menu opens
-var frame_opened : uint = 0 
+var frame_opened : int = 0
 
 ## ============================================================================
 ## READY & REFRESH

@@ -4,6 +4,7 @@ label start
 [background fade="1.0"]
 join Daisy (neutral) left
 leave Belle
+[signal arg="save_game"]
 
 Daisy (tired): To think organizing a few bags would be so exhausting, huh...
 
