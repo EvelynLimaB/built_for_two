@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-@onready var pause_menu = %PauseMenu
+@onready var pause_menu: OverlaidWindow = $PauseMenu
 
 func _on_pause_menu_hidden():
 	hide()
