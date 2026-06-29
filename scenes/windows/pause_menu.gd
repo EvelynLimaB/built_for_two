@@ -35,6 +35,7 @@ var frame_opened : int = 0
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS 
+	ui_cancel_closes = false # ✅ Prevents the menu from closing on key release
 	
 	_refresh_exit_button()
 	_refresh_options_button()
@@ -104,14 +105,11 @@ func show() -> void:
 	frame_opened = Engine.get_process_frames()
 
 func _input(event: InputEvent) -> void:
-	# ✅ Upgraded to _input() so Dialogic can NEVER steal the Escape key from this menu!
-	if visible and event.is_action_pressed("ui_cancel"):
-		
-		# ✅ Prevent "Blinking": Ignore the input if it's the exact same frame the menu opened
+	# ✅ Added 'false' to explicitly ignore echo/held key events
+	if visible and event.is_action_pressed("ui_cancel", false): 
 		if Engine.get_process_frames() == frame_opened:
 			return
 			
-		# Consume the input so nothing else in the game reacts to it
 		get_viewport().set_input_as_handled()
 		_handle_cancel_input()
 
@@ -120,6 +118,14 @@ func _handle_cancel_input() -> void:
 		close_window()
 	else:
 		super._handle_cancel_input()
+
+func close() -> void:
+	var parent = get_parent()
+	super.close() # Let the window do its normal closing routine
+	
+	# ✅ Destroy the parent CanvasLayer so PauseMenuController can open a new one later
+	if parent is CanvasLayer:
+		parent.queue_free()
 
 ## ============================================================================
 ## BUTTON SIGNALS
