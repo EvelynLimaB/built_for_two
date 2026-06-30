@@ -6,6 +6,11 @@ signal close_menu_requested
 @export var save_slot_scene: PackedScene
 @onready var grid = $ScrollContainer/GridContainer
 
+func _ready():
+	if save_slot_scene == null:
+		push_error("❌ save_slot_scene is not assigned in the editor!")
+		return
+
 enum Mode { SAVE, LOAD }
 var current_mode: Mode = Mode.SAVE
 

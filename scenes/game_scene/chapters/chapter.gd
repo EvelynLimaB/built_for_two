@@ -35,9 +35,11 @@ func _ready():
 	# ✅ ONLY start the timeline if we didn't just load a saved session
 	if not save_loaded_successfully:
 		Dialogic.start(timeline_path)
+		# ✅ Wait for Dialogic to fully initialize before enabling autosave
+		await Dialogic.timeline_started
 	
 	# ✅ Reactivate autosave after the timeline is stable
-	call_deferred("_enable_autosave")
+	_enable_autosave()
 
 ## ============================================================================
 ## AUTOSAVE CONTROL

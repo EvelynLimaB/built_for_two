@@ -41,7 +41,8 @@ func load_game(slot_name: String = DEFAULT_SLOT) -> bool:
 		return true
 	else:
 		push_error("❌ Falha ao carregar save de: ", slot_name)
-		delete_save(slot_name)  # Remove o save corrompido
+		# ✅ Back up the corrupted save instead of deleting it
+		_backup_corrupted_save(slot_name)
 		return false
 
 ## Verifica se existe um save em um slot
@@ -92,3 +93,23 @@ func reset_slot(slot_name: String = DEFAULT_SLOT):
 	if slot_name == DEFAULT_SLOT:
 		Dialogic.Save.reset_slot()
 	print("🔄 Slot resetado: ", slot_name)
+
+## ✅ Backup corrupted saves instead of losing them forever
+func _backup_corrupted_save(slot_name: String) -> void:
+	var timestamp = Time.get_datetime_string_from_system(false, true).replace(":", "-")
+	var backup_slot_name = slot_name + "_CORRUPTED_" + timestamp
+	
+	# Dialogic save files are stored in user:// - we manually copy the slot folder
+	var source_path = "user://" + slot_name
+	var backup_path = "user://" + backup_slot_name
+	
+	var dir = DirAccess.open("user://")
+	if dir and dir.dir_exists(source_path):
+		dir.rename(source_path, backup_path)
+		print("💾 Corrupted save backed up to: ", backup_slot_name)
+	else:
+		push_warning("⚠️ Could not backup corrupted save (directory issue)")
+	
+	# Now delete the corrupted original slot via Dialogic API as fallback
+	if Dialogic.Save.has_slot(slot_name):
+		Dialogic.Save.delete_slot(slot_name)

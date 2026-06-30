@@ -59,8 +59,9 @@ func _refresh_main_menu_button() -> void:
 	if main_menu_button: main_menu_button.visible = !get_main_menu_scene_path().is_empty()
 
 func _refresh_save_buttons() -> void:
-	var has_save_manager = SaveManager != null
-	if save_load_button: save_load_button.visible = has_save_manager
+	# ✅ SaveManager is an autoload, so it's always available
+	# Check if the save_load_button itself exists instead
+	if save_load_button: save_load_button.visible = true
 
 func get_main_menu_scene_path() -> String:
 	if main_menu_scene_path.is_empty():
@@ -152,6 +153,7 @@ func _on_restart_confirmation_confirmed() -> void:
 func _on_main_menu_confirmation_confirmed():
 	get_tree().paused = false
 	SceneLoader.load_scene(get_main_menu_scene_path())
+	close()  # ✅ Destroy the parent CanvasLayer to prevent memory leak
 
 func _on_exit_confirmation_confirmed():
 	get_tree().quit()

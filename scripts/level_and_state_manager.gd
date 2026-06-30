@@ -15,6 +15,13 @@ func get_checkpoint_chapter_path() -> String:
 	return super.get_checkpoint_chapter_path()
 
 func on_timeline_ended(chapter_id: String, next_chapter: String) -> void:
+	# ✅ NOTE: This is a template method that may or may not be called.
+	# The main timeline logic is handled in chapter.gd's _on_timeline_ended().
+	# This method exists for subclasses or external managers to override.
+	
 	var game_state = GameState.get_or_create_state()
 	game_state.unlock_chapter(next_chapter)
-	# Then load next chapter or show menu
+	
+	# ✅ If implemented by a subclass, load the next chapter or show menu here
+	# For now, it's a no-op since chapter.gd handles the full flow independently
+	pass
