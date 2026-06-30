@@ -23,6 +23,7 @@ extends OverlaidWindow
 @onready var main_menu_button = %MainMenuButton
 @onready var exit_button = %ExitButton
 @onready var save_load_button = %MenuButtons.get_node_or_null("SaveLoadButton")
+@onready var resume_button = %ResumeButton  # <-- Make sure you have this in your scene
 
 var open_window : Node
 var frame_opened : int = 0
@@ -40,12 +41,17 @@ func _ready() -> void:
 	_refresh_main_menu_button()
 	_refresh_save_buttons()
 	
+	# Connect confirmation dialogs
 	if restart_confirmation:
 		restart_confirmation.confirmed.connect(_on_restart_confirmation_confirmed)
 	if main_menu_confirmation:
 		main_menu_confirmation.confirmed.connect(_on_main_menu_confirmation_confirmed)
 	if exit_confirmation:
 		exit_confirmation.confirmed.connect(_on_exit_confirmation_confirmed)
+	
+	# Connect the Resume button directly to the PauseHandler
+	if resume_button:
+		resume_button.pressed.connect(_on_resume_button_pressed)
 
 func _refresh_exit_button() -> void:
 	if exit_button: 
@@ -114,30 +120,29 @@ func show() -> void:
 	frame_opened = Engine.get_process_frames()
 
 func _input(event: InputEvent) -> void:
-	if visible and event.is_action_pressed("ui_cancel", false): 
+	if visible and open_window == null and event.is_action_pressed("ui_cancel", false): 
 		if Engine.get_process_frames() == frame_opened:
 			return
 		get_viewport().set_input_as_handled()
-		_handle_cancel_input()
-
-func _handle_cancel_input() -> void:
-	if open_window != null:
-		close_window()
-	else:
-		super._handle_cancel_input()
+		# Instead of just closing, we tell the PauseHandler to resume the game.
+		# This will unpause and hide the menu in one go.
+		PauseHandler.resume_game()
 
 ## ============================================================================
-## CLOSE LOGIC (FIXED - NO MORE FREED PARENT)
+## CLOSE LOGIC
 ## ============================================================================
 
 func close() -> void:
-	# ✅ We just hide ourselves. The PauseHandler manages the CanvasLayer.
+	# Just hide the UI – the PauseHandler manages the lifecycle and pause state.
 	super.close() 
-	# If PauseHandler wants to destroy us, it will call queue_free() on its own.
 
 ## ============================================================================
 ## BUTTON SIGNALS
 ## ============================================================================
+
+func _on_resume_button_pressed() -> void:
+	# Delegate to the global PauseHandler
+	PauseHandler.resume_game()
 
 func _on_options_button_pressed() -> void:
 	if options_menu_scene == null: 
@@ -156,17 +161,16 @@ func _on_exit_button_pressed() -> void:
 		_show_window(exit_confirmation)
 
 func _on_restart_confirmation_confirmed() -> void:
-	close()  # ✅ Hide UI first
-	get_tree().paused = false
+	# The PauseHandler will unpause and hide the menu before reloading
+	PauseHandler.prepare_for_scene_change()
 	SceneLoader.reload_current_scene()
 
 func _on_main_menu_confirmation_confirmed():
-	close()  # ✅ Hide UI first
-	get_tree().paused = false
+	PauseHandler.prepare_for_scene_change()
 	SceneLoader.load_scene(get_main_menu_scene_path())
 
 func _on_exit_confirmation_confirmed():
-	close()
+	PauseHandler.prepare_for_scene_change()
 	get_tree().quit()
 
 func _on_save_load_button_pressed():
@@ -175,9 +179,11 @@ func _on_save_load_button_pressed():
 		
 	var gallery = save_gallery_scene.instantiate()
 	
-	# ✅ FIX #1: Use class_name if available, or cast
-	# Assuming you added 'class_name SaveGallery' to the save script:
-	gallery.current_mode = SaveGallery.Mode.SAVE  
+	# ✅ Use class_name if available; fallback to int if not
+	if gallery.has_method("set_mode") or "Mode" in gallery:
+		gallery.current_mode = SaveGallery.Mode.SAVE if "SaveGallery" in get_script().get_global_name() else 0
+	else:
+		gallery.current_mode = 0  # fallback
 	
 	gallery.process_mode = Node.PROCESS_MODE_ALWAYS 
 	gallery.close_menu_requested.connect(func(): close())

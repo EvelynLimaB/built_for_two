@@ -27,6 +27,7 @@ ProjectMusicController="*uid://r5t485lr3p7t"
 ProjectUISoundController="*uid://cc37235kj4384"
 Dialogic="*uid://ds2q0uclmolvu"
 SaveManager="*uid://balh5jy3ek02r"
+PauseHandler="*uid://cb5balljb6rea"
 
 [dialogic]
 
