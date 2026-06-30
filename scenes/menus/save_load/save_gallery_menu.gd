@@ -1,4 +1,5 @@
 extends Control 
+class_name SaveGallery
 
 # ✅ NEW: Signal to tell the parent Pause Menu to close
 signal close_menu_requested 
@@ -6,15 +7,14 @@ signal close_menu_requested
 @export var save_slot_scene: PackedScene
 @onready var grid = $ScrollContainer/GridContainer
 
+enum Mode { SAVE, LOAD }
+var current_mode: Mode = Mode.SAVE
+
+
 func _ready():
 	if save_slot_scene == null:
 		push_error("❌ save_slot_scene is not assigned in the editor!")
 		return
-
-enum Mode { SAVE, LOAD }
-var current_mode: Mode = Mode.SAVE
-
-func _ready():
 	populate_gallery()
 
 func populate_gallery():

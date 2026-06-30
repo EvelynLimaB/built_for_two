@@ -25,8 +25,6 @@ extends OverlaidWindow
 @onready var save_load_button = %MenuButtons.get_node_or_null("SaveLoadButton")
 
 var open_window : Node
-
-# ✅ THE FIX: Tracks the exact engine frame the menu opens
 var frame_opened : int = 0
 
 ## ============================================================================
@@ -35,7 +33,7 @@ var frame_opened : int = 0
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS 
-	ui_cancel_closes = false # ✅ Prevents the menu from closing on key release
+	ui_cancel_closes = false
 	
 	_refresh_exit_button()
 	_refresh_options_button()
@@ -50,18 +48,20 @@ func _ready() -> void:
 		exit_confirmation.confirmed.connect(_on_exit_confirmation_confirmed)
 
 func _refresh_exit_button() -> void:
-	if exit_button: exit_button.visible = !OS.has_feature("web")
+	if exit_button: 
+		exit_button.visible = !OS.has_feature("web")
 
 func _refresh_options_button() -> void:
-	if options_button: options_button.visible = options_menu_scene != null
+	if options_button: 
+		options_button.visible = options_menu_scene != null
 
 func _refresh_main_menu_button() -> void:
-	if main_menu_button: main_menu_button.visible = !get_main_menu_scene_path().is_empty()
+	if main_menu_button: 
+		main_menu_button.visible = !get_main_menu_scene_path().is_empty()
 
 func _refresh_save_buttons() -> void:
-	# ✅ SaveManager is an autoload, so it's always available
-	# Check if the save_load_button itself exists instead
-	if save_load_button: save_load_button.visible = true
+	if save_load_button: 
+		save_load_button.visible = true
 
 func get_main_menu_scene_path() -> String:
 	if main_menu_scene_path.is_empty():
@@ -74,19 +74,28 @@ func get_main_menu_scene_path() -> String:
 
 func close_window() -> void:
 	if open_window != null:
-		if open_window.has_method("close"): open_window.close()
+		if open_window.has_method("close"): 
+			open_window.close()
 		else:
 			open_window.hide()
 			open_window.queue_free()
 		open_window = null
 
 func _disable_focus() -> void:
-	for child in %MenuButtons.get_children():
-		if child is Control: child.focus_mode = FOCUS_NONE
+	var menu_buttons = %MenuButtons
+	if not menu_buttons:
+		return
+	for child in menu_buttons.get_children():
+		if child is Control:
+			child.focus_mode = FOCUS_NONE
 
 func _enable_focus() -> void:
-	for child in %MenuButtons.get_children():
-		if child is Control: child.focus_mode = FOCUS_ALL
+	var menu_buttons = %MenuButtons
+	if not menu_buttons:
+		return
+	for child in menu_buttons.get_children():
+		if child is Control:
+			child.focus_mode = FOCUS_ALL
 
 func _show_window(window : Control) -> void:
 	_disable_focus.call_deferred()
@@ -97,20 +106,17 @@ func _show_window(window : Control) -> void:
 	_enable_focus.call_deferred()
 
 ## ============================================================================
-## ENGINE-LEVEL INPUT HANDLING (THE MASTER FIX)
+## ENGINE-LEVEL INPUT HANDLING
 ## ============================================================================
 
 func show() -> void:
 	super.show()
-	# ✅ Record the exact engine frame this menu appeared on the screen
 	frame_opened = Engine.get_process_frames()
 
 func _input(event: InputEvent) -> void:
-	# ✅ Added 'false' to explicitly ignore echo/held key events
 	if visible and event.is_action_pressed("ui_cancel", false): 
 		if Engine.get_process_frames() == frame_opened:
 			return
-			
 		get_viewport().set_input_as_handled()
 		_handle_cancel_input()
 
@@ -120,51 +126,60 @@ func _handle_cancel_input() -> void:
 	else:
 		super._handle_cancel_input()
 
+## ============================================================================
+## CLOSE LOGIC (FIXED - NO MORE FREED PARENT)
+## ============================================================================
+
 func close() -> void:
-	var parent = get_parent()
-	super.close() # Let the window do its normal closing routine
-	
-	# ✅ Destroy the parent CanvasLayer so PauseMenuController can open a new one later
-	if parent is CanvasLayer:
-		parent.queue_free()
+	# ✅ We just hide ourselves. The PauseHandler manages the CanvasLayer.
+	super.close() 
+	# If PauseHandler wants to destroy us, it will call queue_free() on its own.
 
 ## ============================================================================
 ## BUTTON SIGNALS
 ## ============================================================================
 
 func _on_options_button_pressed() -> void:
-	if options_menu_scene == null: return
+	if options_menu_scene == null: 
+		return
 	var options = options_menu_scene.instantiate()
 	options.process_mode = Node.PROCESS_MODE_ALWAYS
 	menu_container.add_child.call_deferred(options)
 	_show_window(options)
 
 func _on_main_menu_button_pressed() -> void:
-	if main_menu_confirmation: _show_window(main_menu_confirmation)
+	if main_menu_confirmation: 
+		_show_window(main_menu_confirmation)
 
 func _on_exit_button_pressed() -> void:
-	if exit_confirmation: _show_window(exit_confirmation)
+	if exit_confirmation: 
+		_show_window(exit_confirmation)
 
 func _on_restart_confirmation_confirmed() -> void:
+	close()  # ✅ Hide UI first
 	get_tree().paused = false
 	SceneLoader.reload_current_scene()
-	close()
 
 func _on_main_menu_confirmation_confirmed():
+	close()  # ✅ Hide UI first
 	get_tree().paused = false
 	SceneLoader.load_scene(get_main_menu_scene_path())
-	close()  # ✅ Destroy the parent CanvasLayer to prevent memory leak
 
 func _on_exit_confirmation_confirmed():
+	close()
 	get_tree().quit()
 
 func _on_save_load_button_pressed():
-	if save_gallery_scene == null: return
+	if save_gallery_scene == null: 
+		return
 		
 	var gallery = save_gallery_scene.instantiate()
-	gallery.current_mode = gallery.Mode.SAVE
-	gallery.process_mode = Node.PROCESS_MODE_ALWAYS 
 	
+	# ✅ FIX #1: Use class_name if available, or cast
+	# Assuming you added 'class_name SaveGallery' to the save script:
+	gallery.current_mode = SaveGallery.Mode.SAVE  
+	
+	gallery.process_mode = Node.PROCESS_MODE_ALWAYS 
 	gallery.close_menu_requested.connect(func(): close())
 	
 	menu_container.add_child(gallery)
