@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oprvcr030n1x"
-path="res://.godot/imported/xbox_guide_outline.png-fc830ea881cfa8458911be9c33cb1be9.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Default/xbox_guide_outline.png"
-dest_files=["res://.godot/imported/xbox_guide_outline.png-fc830ea881cfa8458911be9c33cb1be9.ctex"]
 
 [params]
 

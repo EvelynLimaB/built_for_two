@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dopp55qehlarb"
-path="res://.godot/imported/keyboard_bracket_less_outline.svg-8146afdebfd058ab8c09c8bd18899c02.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_bracket_less_outline.svg"
-dest_files=["res://.godot/imported/keyboard_bracket_less_outline.svg-8146afdebfd058ab8c09c8bd18899c02.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3uladsis0lqm"
-path="res://.godot/imported/controller_xboxone.png-4584b25ff6a3f5155b371c6ad175ef9f.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Double/controller_xboxone.png"
-dest_files=["res://.godot/imported/controller_xboxone.png-4584b25ff6a3f5155b371c6ad175ef9f.ctex"]
 
 [params]
 

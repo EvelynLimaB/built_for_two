@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxpbwilvfbjri"
-path="res://.godot/imported/playstation_trigger_r1_alternative.png-d08f54a0904b17be6e8ca272704e417c.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation_trigger_r1_alternative.png"
-dest_files=["res://.godot/imported/playstation_trigger_r1_alternative.png-d08f54a0904b17be6e8ca272704e417c.ctex"]
 
 [params]
 

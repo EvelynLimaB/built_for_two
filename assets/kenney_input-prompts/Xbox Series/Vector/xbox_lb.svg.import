@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjcm32d00smyo"
-path="res://.godot/imported/xbox_lb.svg-b6324b7482c1b16f2862747b41880a9e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Vector/xbox_lb.svg"
-dest_files=["res://.godot/imported/xbox_lb.svg-b6324b7482c1b16f2862747b41880a9e.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgcqmo04wmfs5"
-path="res://.godot/imported/steamdeck_trackpad_down_outline.svg-d9736812c48a6c24568c85953b12360d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Steam Deck/Vector/steamdeck_trackpad_down_outline.svg"
-dest_files=["res://.godot/imported/steamdeck_trackpad_down_outline.svg-d9736812c48a6c24568c85953b12360d.ctex"]
 
 [params]
 

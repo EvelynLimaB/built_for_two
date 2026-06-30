@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://txj3wjnwaig4"
-path="res://.godot/imported/keyboard_slash_forward_outline.svg-1eb493cd2bff5c3ed02952923cf82c46.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_slash_forward_outline.svg"
-dest_files=["res://.godot/imported/keyboard_slash_forward_outline.svg-1eb493cd2bff5c3ed02952923cf82c46.ctex"]
 
 [params]
 

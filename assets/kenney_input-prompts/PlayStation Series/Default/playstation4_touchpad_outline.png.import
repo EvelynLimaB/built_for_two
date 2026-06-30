@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bejnuri7r1fo6"
-path="res://.godot/imported/playstation4_touchpad_outline.png-3d0121eebe7f02464ca22b023aabfd66.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation4_touchpad_outline.png"
-dest_files=["res://.godot/imported/playstation4_touchpad_outline.png-3d0121eebe7f02464ca22b023aabfd66.ctex"]
 
 [params]
 

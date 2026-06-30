@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buu2ydilt2mwc"
-path="res://.godot/imported/mouse_right_outline.png-fe847cea3893a0d3cc629fe555d81af5.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Default/mouse_right_outline.png"
-dest_files=["res://.godot/imported/mouse_right_outline.png-fe847cea3893a0d3cc629fe555d81af5.ctex"]
 
 [params]
 

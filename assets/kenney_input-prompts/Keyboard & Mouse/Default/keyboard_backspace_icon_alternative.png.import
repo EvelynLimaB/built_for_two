@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cird6qjs13xq6"
-path="res://.godot/imported/keyboard_backspace_icon_alternative.png-d895ccfcde48c6186a0dccf196e7c093.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Default/keyboard_backspace_icon_alternative.png"
-dest_files=["res://.godot/imported/keyboard_backspace_icon_alternative.png-d895ccfcde48c6186a0dccf196e7c093.ctex"]
 
 [params]
 

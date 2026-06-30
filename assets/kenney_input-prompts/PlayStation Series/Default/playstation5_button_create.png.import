@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci0tl0bg2qj52"
-path="res://.godot/imported/playstation5_button_create.png-88e475790ccfe3eb5a176f19f1ba2355.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation5_button_create.png"
-dest_files=["res://.godot/imported/playstation5_button_create.png-88e475790ccfe3eb5a176f19f1ba2355.ctex"]
 
 [params]
 

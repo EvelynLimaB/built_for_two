@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vnahxpbpg2dc"
-path="res://.godot/imported/keyboard_bracket_greater.svg-34705d638b4d6671b709e23a6170f073.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_bracket_greater.svg"
-dest_files=["res://.godot/imported/keyboard_bracket_greater.svg-34705d638b4d6671b709e23a6170f073.ctex"]
 
 [params]
 

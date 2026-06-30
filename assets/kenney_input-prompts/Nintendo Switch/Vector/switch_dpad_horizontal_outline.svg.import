@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lulbrc3csnea"
-path="res://.godot/imported/switch_dpad_horizontal_outline.svg-7f99939cc78ab502f9f8f8ee14d1e850.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Nintendo Switch/Vector/switch_dpad_horizontal_outline.svg"
-dest_files=["res://.godot/imported/switch_dpad_horizontal_outline.svg-7f99939cc78ab502f9f8f8ee14d1e850.ctex"]
 
 [params]
 

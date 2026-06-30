@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db30sy5ncp8n0"
-path="res://.godot/imported/keyboard_semicolon.svg-e22df6f19b8dd4390417181666fb53f6.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_semicolon.svg"
-dest_files=["res://.godot/imported/keyboard_semicolon.svg-e22df6f19b8dd4390417181666fb53f6.ctex"]
 
 [params]
 

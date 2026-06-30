@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcxyt3tgm30d8"
-path="res://.godot/imported/playstation_button_cross.png-f087153341f2a627220253238a7d449b.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation_button_cross.png"
-dest_files=["res://.godot/imported/playstation_button_cross.png-f087153341f2a627220253238a7d449b.ctex"]
 
 [params]
 

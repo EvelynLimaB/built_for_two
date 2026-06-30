@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc5pr5yix0u2a"
-path="res://.godot/imported/keyboard_apostrophe_outline.png-8c58d8dcc15ee909d0ca40d03df13e6e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_apostrophe_outline.png"
-dest_files=["res://.godot/imported/keyboard_apostrophe_outline.png-8c58d8dcc15ee909d0ca40d03df13e6e.ctex"]
 
 [params]
 

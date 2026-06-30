@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx183y3c6cypj"
-path="res://.godot/imported/playstation_button_square_outline.svg-868c93347b596aa48890662a9479d61a.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Vector/playstation_button_square_outline.svg"
-dest_files=["res://.godot/imported/playstation_button_square_outline.svg-868c93347b596aa48890662a9479d61a.ctex"]
 
 [params]
 

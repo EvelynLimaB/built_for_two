@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmv2f81ap6n7v"
-path="res://.godot/imported/playstation_dpad_horizontal.svg-1046b967c1cbf3921418fa91611e543d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Vector/playstation_dpad_horizontal.svg"
-dest_files=["res://.godot/imported/playstation_dpad_horizontal.svg-1046b967c1cbf3921418fa91611e543d.ctex"]
 
 [params]
 

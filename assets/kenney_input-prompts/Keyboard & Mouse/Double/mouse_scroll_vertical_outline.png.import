@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b40pk1vth4wkd"
-path="res://.godot/imported/mouse_scroll_vertical_outline.png-15dbfac4eadb4126ec54c762b8f07833.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/mouse_scroll_vertical_outline.png"
-dest_files=["res://.godot/imported/mouse_scroll_vertical_outline.png-15dbfac4eadb4126ec54c762b8f07833.ctex"]
 
 [params]
 

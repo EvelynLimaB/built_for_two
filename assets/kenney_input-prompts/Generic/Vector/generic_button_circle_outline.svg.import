@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0c6mvkfjd6k3"
-path="res://.godot/imported/generic_button_circle_outline.svg-cbab265399f7a7b460f490157e07851d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Generic/Vector/generic_button_circle_outline.svg"
-dest_files=["res://.godot/imported/generic_button_circle_outline.svg-cbab265399f7a7b460f490157e07851d.ctex"]
 
 [params]
 

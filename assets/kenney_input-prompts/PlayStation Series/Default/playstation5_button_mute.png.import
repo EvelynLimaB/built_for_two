@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ck3pj66ji5f6d"
-path="res://.godot/imported/playstation5_button_mute.png-ec9ac9e7df45d23144d606b077105b92.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation5_button_mute.png"
-dest_files=["res://.godot/imported/playstation5_button_mute.png-ec9ac9e7df45d23144d606b077105b92.ctex"]
 
 [params]
 

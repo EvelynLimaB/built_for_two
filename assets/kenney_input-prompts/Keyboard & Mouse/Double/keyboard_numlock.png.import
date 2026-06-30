@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fj0y0j4q5r1y"
-path="res://.godot/imported/keyboard_numlock.png-05bb95cbed878f88cbc0888dce29938d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_numlock.png"
-dest_files=["res://.godot/imported/keyboard_numlock.png-05bb95cbed878f88cbc0888dce29938d.ctex"]
 
 [params]
 

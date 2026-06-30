@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3mkiwdd3lhj6"
-path="res://.godot/imported/playstation5_touchpad.png-505492abc8c50cd409e01e7f7bb9d197.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation5_touchpad.png"
-dest_files=["res://.godot/imported/playstation5_touchpad.png-505492abc8c50cd409e01e7f7bb9d197.ctex"]
 
 [params]
 

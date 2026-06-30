@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqtwgpd2uk55c"
-path="res://.godot/imported/playstation_button_analog.png-2839b7cbcc97213b3bd2efa83c49e6bb.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation_button_analog.png"
-dest_files=["res://.godot/imported/playstation_button_analog.png-2839b7cbcc97213b3bd2efa83c49e6bb.ctex"]
 
 [params]
 

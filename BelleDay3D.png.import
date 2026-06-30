@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6beutsokcxpn"
-path="res://.godot/imported/BelleDay3D.png-344534ec20ceb3a402724a6bc3901f08.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://BelleDay3D.png"
-dest_files=["res://.godot/imported/BelleDay3D.png-344534ec20ceb3a402724a6bc3901f08.ctex"]
 
 [params]
 

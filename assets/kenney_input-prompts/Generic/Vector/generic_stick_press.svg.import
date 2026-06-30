@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmegi2vp4uwgk"
-path="res://.godot/imported/generic_stick_press.svg-ee9537eaa672b38921a8a523ebf63670.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Generic/Vector/generic_stick_press.svg"
-dest_files=["res://.godot/imported/generic_stick_press.svg-ee9537eaa672b38921a8a523ebf63670.ctex"]
 
 [params]
 

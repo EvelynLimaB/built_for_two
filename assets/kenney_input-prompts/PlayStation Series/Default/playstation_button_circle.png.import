@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cud42vls2a64v"
-path="res://.godot/imported/playstation_button_circle.png-4fae5b9fca59b30f89438c5e7d762d82.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation_button_circle.png"
-dest_files=["res://.godot/imported/playstation_button_circle.png-4fae5b9fca59b30f89438c5e7d762d82.ctex"]
 
 [params]
 

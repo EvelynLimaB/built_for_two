@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpw81387d0275"
-path="res://.godot/imported/xbox_dpad_up_outline.png-8f70b4272cf83c63f0351b249b9afab8.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Default/xbox_dpad_up_outline.png"
-dest_files=["res://.godot/imported/xbox_dpad_up_outline.png-8f70b4272cf83c63f0351b249b9afab8.ctex"]
 
 [params]
 

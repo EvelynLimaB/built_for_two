@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c13xhyt03hjlb"
-path="res://.godot/imported/keyboard_arrows_horizontal.png-63fd9ddc461c8e928ae88713813c283e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_arrows_horizontal.png"
-dest_files=["res://.godot/imported/keyboard_arrows_horizontal.png-63fd9ddc461c8e928ae88713813c283e.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e640qykbiytr"
-path="res://.godot/imported/generic_button_trigger_c.png-345729fac4b995ca5ac88110a3f79b53.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Generic/Double/generic_button_trigger_c.png"
-dest_files=["res://.godot/imported/generic_button_trigger_c.png-345729fac4b995ca5ac88110a3f79b53.ctex"]
 
 [params]
 

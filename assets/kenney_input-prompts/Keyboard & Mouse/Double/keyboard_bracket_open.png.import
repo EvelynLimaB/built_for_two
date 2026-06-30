@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8mlidhqw8w5a"
-path="res://.godot/imported/keyboard_bracket_open.png-a1eaf709dddc15955a085a37504c0894.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_bracket_open.png"
-dest_files=["res://.godot/imported/keyboard_bracket_open.png-a1eaf709dddc15955a085a37504c0894.ctex"]
 
 [params]
 

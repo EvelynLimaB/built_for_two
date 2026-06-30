@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c87i4i5dn8bt2"
-path="res://.godot/imported/keyboard_arrow_left.png-d3826af5cca1aad5864643ea922ed83e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Default/keyboard_arrow_left.png"
-dest_files=["res://.godot/imported/keyboard_arrow_left.png-d3826af5cca1aad5864643ea922ed83e.ctex"]
 
 [params]
 

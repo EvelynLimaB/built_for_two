@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvcqj0i5ydfgx"
-path="res://.godot/imported/keyboard_slash_back.png-b12c551f11af5a650be991550cd8841a.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_slash_back.png"
-dest_files=["res://.godot/imported/keyboard_slash_back.png-b12c551f11af5a650be991550cd8841a.ctex"]
 
 [params]
 

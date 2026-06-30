@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi47k33hybxvc"
-path="res://.godot/imported/generic_button_square_fill.svg-0074dbe511635ee8c0e3f01823a95207.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Generic/Vector/generic_button_square_fill.svg"
-dest_files=["res://.godot/imported/generic_button_square_fill.svg-0074dbe511635ee8c0e3f01823a95207.ctex"]
 
 [params]
 

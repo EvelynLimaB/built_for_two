@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tsuac2qanbjm"
-path="res://.godot/imported/keyboard_exclamation.png-32afaaae9d1a484deb86f2e2ff0554c9.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_exclamation.png"
-dest_files=["res://.godot/imported/keyboard_exclamation.png-32afaaae9d1a484deb86f2e2ff0554c9.ctex"]
 
 [params]
 

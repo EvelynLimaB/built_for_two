@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cb7xl236ftjhw"
-path="res://.godot/imported/keyboard_arrows_none.png-fd4f4922c4d647835007bce2d6326150.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_arrows_none.png"
-dest_files=["res://.godot/imported/keyboard_arrows_none.png-fd4f4922c4d647835007bce2d6326150.ctex"]
 
 [params]
 

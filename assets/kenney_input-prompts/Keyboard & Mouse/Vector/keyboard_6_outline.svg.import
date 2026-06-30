@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh3vu8mgg4lx8"
-path="res://.godot/imported/keyboard_6_outline.svg-8191ea348460c23243369c675663d64c.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_6_outline.svg"
-dest_files=["res://.godot/imported/keyboard_6_outline.svg-8191ea348460c23243369c675663d64c.ctex"]
 
 [params]
 

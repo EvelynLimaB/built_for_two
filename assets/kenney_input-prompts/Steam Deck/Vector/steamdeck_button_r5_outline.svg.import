@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg13kg51ommtp"
-path="res://.godot/imported/steamdeck_button_r5_outline.svg-811f3fc5a2975cf373c55f24a8f3df66.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Steam Deck/Vector/steamdeck_button_r5_outline.svg"
-dest_files=["res://.godot/imported/steamdeck_button_r5_outline.svg-811f3fc5a2975cf373c55f24a8f3df66.ctex"]
 
 [params]
 

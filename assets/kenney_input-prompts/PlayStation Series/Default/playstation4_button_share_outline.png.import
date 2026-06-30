@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbsy1kswmskan"
-path="res://.godot/imported/playstation4_button_share_outline.png-d9775cdd28cbc8d9490e7f19e2c94338.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation4_button_share_outline.png"
-dest_files=["res://.godot/imported/playstation4_button_share_outline.png-d9775cdd28cbc8d9490e7f19e2c94338.ctex"]
 
 [params]
 

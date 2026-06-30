@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxorbhnr4o2rj"
-path="res://.godot/imported/icon.png-5e2e422904d471016252dff8d4bdfa96.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://addons/dialogic/Modules/Signal/icon.png"
-dest_files=["res://.godot/imported/icon.png-5e2e422904d471016252dff8d4bdfa96.ctex"]
 
 [params]
 

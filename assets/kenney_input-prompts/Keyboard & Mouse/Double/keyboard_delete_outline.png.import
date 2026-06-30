@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be8b8vf4sov7"
-path="res://.godot/imported/keyboard_delete_outline.png-9472fb7de917c4667415a4b98215eab2.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_delete_outline.png"
-dest_files=["res://.godot/imported/keyboard_delete_outline.png-9472fb7de917c4667415a4b98215eab2.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwwi4qrpsnjyq"
-path="res://.godot/imported/xbox_rt.png-df702fcdbf4444f3007ddb1b6dded0f5.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Double/xbox_rt.png"
-dest_files=["res://.godot/imported/xbox_rt.png-df702fcdbf4444f3007ddb1b6dded0f5.ctex"]
 
 [params]
 

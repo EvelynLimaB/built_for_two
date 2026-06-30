@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b145hnc4lv7lf"
-path="res://.godot/imported/mouse_horizontal.png-224a7cae5ef10bc8f30cea79b8c295e6.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/mouse_horizontal.png"
-dest_files=["res://.godot/imported/mouse_horizontal.png-224a7cae5ef10bc8f30cea79b8c295e6.ctex"]
 
 [params]
 

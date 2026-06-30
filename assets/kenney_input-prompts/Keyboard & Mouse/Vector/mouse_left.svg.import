@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b10xufcxcthyn"
-path="res://.godot/imported/mouse_left.svg-683bc260a27d25d595bc2214b7d77ac3.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/mouse_left.svg"
-dest_files=["res://.godot/imported/mouse_left.svg-683bc260a27d25d595bc2214b7d77ac3.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfjcvhih4bfu3"
-path="res://.godot/imported/xbox_button_back_icon_outline.png-cfd20a56a834214c47372c500bc44dcd.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Default/xbox_button_back_icon_outline.png"
-dest_files=["res://.godot/imported/xbox_button_back_icon_outline.png-cfd20a56a834214c47372c500bc44dcd.ctex"]
 
 [params]
 

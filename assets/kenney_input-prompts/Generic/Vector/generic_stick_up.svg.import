@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2dw14jqbjtvd"
-path="res://.godot/imported/generic_stick_up.svg-f007971a0eb7e740fadfb35f57a2ad33.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Generic/Vector/generic_stick_up.svg"
-dest_files=["res://.godot/imported/generic_stick_up.svg-f007971a0eb7e740fadfb35f57a2ad33.ctex"]
 
 [params]
 

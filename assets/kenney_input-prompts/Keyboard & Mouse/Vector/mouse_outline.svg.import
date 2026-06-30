@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh5ti02t2trxg"
-path="res://.godot/imported/mouse_outline.svg-fc64572f74bf56c2e8c568e4fcfad445.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/mouse_outline.svg"
-dest_files=["res://.godot/imported/mouse_outline.svg-fc64572f74bf56c2e8c568e4fcfad445.ctex"]
 
 [params]
 

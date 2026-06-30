@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tfsjbrr7dyij"
-path="res://.godot/imported/keyboard_delete.png-d42ffa663806eaf883387e8bc4a03761.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_delete.png"
-dest_files=["res://.godot/imported/keyboard_delete.png-d42ffa663806eaf883387e8bc4a03761.ctex"]
 
 [params]
 

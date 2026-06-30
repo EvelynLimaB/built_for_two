@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdgt4lf50m57q"
-path="res://.godot/imported/switch_buttons_right.svg-493239e3e0738f2117fbde6c103100ee.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Nintendo Switch/Vector/switch_buttons_right.svg"
-dest_files=["res://.godot/imported/switch_buttons_right.svg-493239e3e0738f2117fbde6c103100ee.ctex"]
 
 [params]
 

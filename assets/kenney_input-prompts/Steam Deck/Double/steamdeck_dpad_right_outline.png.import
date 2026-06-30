@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4n7qsq146aop"
-path="res://.godot/imported/steamdeck_dpad_right_outline.png-8c93a711779705dad8043ff79d22790d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Steam Deck/Double/steamdeck_dpad_right_outline.png"
-dest_files=["res://.godot/imported/steamdeck_dpad_right_outline.png-8c93a711779705dad8043ff79d22790d.ctex"]
 
 [params]
 

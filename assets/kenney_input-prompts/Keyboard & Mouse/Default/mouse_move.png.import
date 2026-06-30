@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc0pdksu0tuwc"
-path="res://.godot/imported/mouse_move.png-7afdd896b1d8e793e71e08ebd66e0d9f.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Default/mouse_move.png"
-dest_files=["res://.godot/imported/mouse_move.png-7afdd896b1d8e793e71e08ebd66e0d9f.ctex"]
 
 [params]
 

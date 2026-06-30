@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://l641qknd33l4"
-path="res://.godot/imported/generic_stick_down.png-098e1b34d210d4e18b0fe934bf1c24b4.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Generic/Double/generic_stick_down.png"
-dest_files=["res://.godot/imported/generic_stick_down.png-098e1b34d210d4e18b0fe934bf1c24b4.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5m18co1ifuuj"
-path="res://.godot/imported/xbox_stick_side_r.png-f6a04da6b4a999295b614a541cb8531e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Double/xbox_stick_side_r.png"
-dest_files=["res://.godot/imported/xbox_stick_side_r.png-f6a04da6b4a999295b614a541cb8531e.ctex"]
 
 [params]
 

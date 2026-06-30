@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cknwhdwt4g28t"
-path="res://.godot/imported/xbox_stick_l.svg-0e62f4dc0386b3f179e557fcc60ddece.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Vector/xbox_stick_l.svg"
-dest_files=["res://.godot/imported/xbox_stick_l.svg-0e62f4dc0386b3f179e557fcc60ddece.ctex"]
 
 [params]
 

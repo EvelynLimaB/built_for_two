@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cagaxblhi7kjx"
-path="res://.godot/imported/mouse_scroll_up_outline.svg-85e08011cfd474927a67cfe0198d1496.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/mouse_scroll_up_outline.svg"
-dest_files=["res://.godot/imported/mouse_scroll_up_outline.svg-85e08011cfd474927a67cfe0198d1496.ctex"]
 
 [params]
 

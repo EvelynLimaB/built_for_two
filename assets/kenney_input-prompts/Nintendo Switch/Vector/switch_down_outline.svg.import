@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b56lckved83d0"
-path="res://.godot/imported/switch_down_outline.svg-f9dd910ea6d0e1e75e70c8833d97f45e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Nintendo Switch/Vector/switch_down_outline.svg"
-dest_files=["res://.godot/imported/switch_down_outline.svg-f9dd910ea6d0e1e75e70c8833d97f45e.ctex"]
 
 [params]
 

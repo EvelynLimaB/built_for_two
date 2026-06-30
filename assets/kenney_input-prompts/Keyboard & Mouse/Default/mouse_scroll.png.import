@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnm1hmihvd04m"
-path="res://.godot/imported/mouse_scroll.png-7f1990354fe2f801396d337af9746709.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Default/mouse_scroll.png"
-dest_files=["res://.godot/imported/mouse_scroll.png-7f1990354fe2f801396d337af9746709.ctex"]
 
 [params]
 

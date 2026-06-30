@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2dljjrexb3ld"
-path="res://.godot/imported/playstation_button_r3_outline.png-1a0a4c9728179c403870d491f8daef9f.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Default/playstation_button_r3_outline.png"
-dest_files=["res://.godot/imported/playstation_button_r3_outline.png-1a0a4c9728179c403870d491f8daef9f.ctex"]
 
 [params]
 

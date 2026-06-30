@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cebcafcui0if1"
-path="res://.godot/imported/keyboard_shift_icon_outline.png-2ce0837285697006a6a884895235f735.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_shift_icon_outline.png"
-dest_files=["res://.godot/imported/keyboard_shift_icon_outline.png-2ce0837285697006a6a884895235f735.ctex"]
 
 [params]
 

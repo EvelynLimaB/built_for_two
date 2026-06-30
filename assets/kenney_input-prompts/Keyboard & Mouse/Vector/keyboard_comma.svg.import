@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btqu7p2c66lu2"
-path="res://.godot/imported/keyboard_comma.svg-ae153cb0fed7af1cc6d40992c91b79e6.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_comma.svg"
-dest_files=["res://.godot/imported/keyboard_comma.svg-ae153cb0fed7af1cc6d40992c91b79e6.ctex"]
 
 [params]
 

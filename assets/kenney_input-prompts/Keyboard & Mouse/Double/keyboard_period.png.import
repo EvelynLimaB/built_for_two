@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dea2yqi7jkltl"
-path="res://.godot/imported/keyboard_period.png-dc2e0a8294def7446ed744d31472ada7.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_period.png"
-dest_files=["res://.godot/imported/keyboard_period.png-dc2e0a8294def7446ed744d31472ada7.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkk8e6uald6d0"
-path="res://.godot/imported/xbox_button_color_b.svg-9b7c430093af7a05ddb6d7ad5b4aaa50.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Vector/xbox_button_color_b.svg"
-dest_files=["res://.godot/imported/xbox_button_color_b.svg-9b7c430093af7a05ddb6d7ad5b4aaa50.ctex"]
 
 [params]
 

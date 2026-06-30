@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnpi18qcnme4i"
-path="res://.godot/imported/icon.png-ee52cc92a2b11ac2a101ff92d2eaaa7c.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://addons/dialogic/Modules/Style/icon.png"
-dest_files=["res://.godot/imported/icon.png-ee52cc92a2b11ac2a101ff92d2eaaa7c.ctex"]
 
 [params]
 

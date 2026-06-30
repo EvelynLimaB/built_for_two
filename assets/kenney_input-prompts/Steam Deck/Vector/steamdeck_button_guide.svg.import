@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddpl0r02us33x"
-path="res://.godot/imported/steamdeck_button_guide.svg-faedb2448a7a70349f991745e50dd34e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Steam Deck/Vector/steamdeck_button_guide.svg"
-dest_files=["res://.godot/imported/steamdeck_button_guide.svg-faedb2448a7a70349f991745e50dd34e.ctex"]
 
 [params]
 

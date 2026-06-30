@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7ca2u5byufj0"
-path="res://.godot/imported/playstation_stick_r_left.svg-775d6680f0b76b62ae2c8940c98b3f92.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/PlayStation Series/Vector/playstation_stick_r_left.svg"
-dest_files=["res://.godot/imported/playstation_stick_r_left.svg-775d6680f0b76b62ae2c8940c98b3f92.ctex"]
 
 [params]
 

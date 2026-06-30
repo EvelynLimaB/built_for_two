@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtu55dq3q16om"
-path="res://.godot/imported/keyboard_arrow_up_outline.png-172e99acf2eef8b78dc160f12ce2a7e1.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Default/keyboard_arrow_up_outline.png"
-dest_files=["res://.godot/imported/keyboard_arrow_up_outline.png-172e99acf2eef8b78dc160f12ce2a7e1.ctex"]
 
 [params]
 

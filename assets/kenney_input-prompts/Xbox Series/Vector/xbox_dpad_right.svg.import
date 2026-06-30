@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bd5hb37i7s6w8"
-path="res://.godot/imported/xbox_dpad_right.svg-22d4de18b4477d8ea0a1b520673405a3.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Vector/xbox_dpad_right.svg"
-dest_files=["res://.godot/imported/xbox_dpad_right.svg-22d4de18b4477d8ea0a1b520673405a3.ctex"]
 
 [params]
 

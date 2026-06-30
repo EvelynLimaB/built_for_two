@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5a6uqyk2mlge"
-path="res://.godot/imported/keyboard_f3.svg-e88246f767dfd1d04401418b4e9d5e81.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_f3.svg"
-dest_files=["res://.godot/imported/keyboard_f3.svg-e88246f767dfd1d04401418b4e9d5e81.ctex"]
 
 [params]
 

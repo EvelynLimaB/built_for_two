@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b17pgdu5ev64v"
-path="res://.godot/imported/steamdeck_dpad_vertical.svg-f91148c4d96c929de5468dc3e7b8d90d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Steam Deck/Vector/steamdeck_dpad_vertical.svg"
-dest_files=["res://.godot/imported/steamdeck_dpad_vertical.svg-f91148c4d96c929de5468dc3e7b8d90d.ctex"]
 
 [params]
 

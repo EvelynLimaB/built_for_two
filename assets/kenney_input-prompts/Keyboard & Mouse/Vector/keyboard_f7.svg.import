@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvl7p8ns8y2tv"
-path="res://.godot/imported/keyboard_f7.svg-d67a30d78cffe5d9642e65756a9e6454.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_f7.svg"
-dest_files=["res://.godot/imported/keyboard_f7.svg-d67a30d78cffe5d9642e65756a9e6454.ctex"]
 
 [params]
 

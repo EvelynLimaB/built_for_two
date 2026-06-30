@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnrqxv61uxwba"
-path="res://.godot/imported/keyboard_asterisk_outline.png-d898f075a573cd68d0be54e4f4ab13f4.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_asterisk_outline.png"
-dest_files=["res://.godot/imported/keyboard_asterisk_outline.png-d898f075a573cd68d0be54e4f4ab13f4.ctex"]
 
 [params]
 

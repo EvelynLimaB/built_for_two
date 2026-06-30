@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbt8nuy6kri1w"
-path="res://.godot/imported/keyboard_return.png-6e06c11386a62bb9fd1dc135485a6326.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_return.png"
-dest_files=["res://.godot/imported/keyboard_return.png-6e06c11386a62bb9fd1dc135485a6326.ctex"]
 
 [params]
 

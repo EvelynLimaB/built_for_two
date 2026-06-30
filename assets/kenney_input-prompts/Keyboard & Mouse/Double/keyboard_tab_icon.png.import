@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8cdxctx2kl2a"
-path="res://.godot/imported/keyboard_tab_icon.png-c4c9be1c63cafc286c2b3f3570fabd3b.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_tab_icon.png"
-dest_files=["res://.godot/imported/keyboard_tab_icon.png-c4c9be1c63cafc286c2b3f3570fabd3b.ctex"]
 
 [params]
 

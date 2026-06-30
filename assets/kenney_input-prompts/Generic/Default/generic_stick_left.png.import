@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxo8vx62asj8k"
-path="res://.godot/imported/generic_stick_left.png-7e8cde495cd2ca6ccf3ffff4d55b4f2e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Generic/Default/generic_stick_left.png"
-dest_files=["res://.godot/imported/generic_stick_left.png-7e8cde495cd2ca6ccf3ffff4d55b4f2e.ctex"]
 
 [params]
 

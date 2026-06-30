@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dst8u81jandho"
-path="res://.godot/imported/keyboard_ctrl_outline.svg-841a2707f810f7453de961cc526460dc.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_ctrl_outline.svg"
-dest_files=["res://.godot/imported/keyboard_ctrl_outline.svg-841a2707f810f7453de961cc526460dc.ctex"]
 
 [params]
 

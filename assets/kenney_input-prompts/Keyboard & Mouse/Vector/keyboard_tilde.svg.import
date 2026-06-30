@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cksp7ol358ii1"
-path="res://.godot/imported/keyboard_tilde.svg-df1442e03d041335afe2c77873014959.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_tilde.svg"
-dest_files=["res://.godot/imported/keyboard_tilde.svg-df1442e03d041335afe2c77873014959.ctex"]
 
 [params]
 

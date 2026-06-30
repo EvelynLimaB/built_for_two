@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfvxn8rdbaec7"
-path="res://.godot/imported/switch_joycon_right_vertical.svg-f87c8f86f2b5005babecec903975cb60.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Nintendo Switch/Vector/switch_joycon_right_vertical.svg"
-dest_files=["res://.godot/imported/switch_joycon_right_vertical.svg-f87c8f86f2b5005babecec903975cb60.ctex"]
 
 [params]
 

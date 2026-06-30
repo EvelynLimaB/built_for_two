@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfd51gadwawn"
-path="res://.godot/imported/keyboard_arrow_up.svg-9e905f1a3dbc2134f738aa137144c9c9.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Vector/keyboard_arrow_up.svg"
-dest_files=["res://.godot/imported/keyboard_arrow_up.svg-9e905f1a3dbc2134f738aa137144c9c9.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmis2xgy5kama"
-path="res://.godot/imported/steamdeck_stick_l_down.svg-c67e8060e292e75ae36aa5045823c20a.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Steam Deck/Vector/steamdeck_stick_l_down.svg"
-dest_files=["res://.godot/imported/steamdeck_stick_l_down.svg-c67e8060e292e75ae36aa5045823c20a.ctex"]
 
 [params]
 

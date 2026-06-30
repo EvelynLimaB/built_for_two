@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://y2xtp2mkofga"
-path="res://.godot/imported/xbox_dpad_vertical.png-db7f204759ec5d35fc2267213ef5617e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Double/xbox_dpad_vertical.png"
-dest_files=["res://.godot/imported/xbox_dpad_vertical.png-db7f204759ec5d35fc2267213ef5617e.ctex"]
 
 [params]
 

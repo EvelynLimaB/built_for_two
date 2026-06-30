@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvc2w8f4vvvxa"
-path="res://.godot/imported/keyboard_bracket_close_outline.png-ad40207ab9c75ff9288d1fb88fb14867.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Keyboard & Mouse/Double/keyboard_bracket_close_outline.png"
-dest_files=["res://.godot/imported/keyboard_bracket_close_outline.png-ad40207ab9c75ff9288d1fb88fb14867.ctex"]
 
 [params]
 

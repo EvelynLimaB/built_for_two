@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crxgdlxg3o66m"
-path="res://.godot/imported/switch_up.png-54372a77194b549d9cc1d504516b68f7.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Nintendo Switch/Double/switch_up.png"
-dest_files=["res://.godot/imported/switch_up.png-54372a77194b549d9cc1d504516b68f7.ctex"]
 
 [params]
 

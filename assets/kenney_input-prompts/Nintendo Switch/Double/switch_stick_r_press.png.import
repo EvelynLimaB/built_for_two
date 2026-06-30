@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwwgde77fyrm6"
-path="res://.godot/imported/switch_stick_r_press.png-eabe015c33ff705d7e813aa16f1e8298.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Nintendo Switch/Double/switch_stick_r_press.png"
-dest_files=["res://.godot/imported/switch_stick_r_press.png-eabe015c33ff705d7e813aa16f1e8298.ctex"]
 
 [params]
 

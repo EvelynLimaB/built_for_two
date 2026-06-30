@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be7hh6af72y58"
-path="res://.godot/imported/controller_xboxseries.svg-4185f11ef37e62acebc4317a4cd7e411.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/kenney_input-prompts/Xbox Series/Vector/controller_xboxseries.svg"
-dest_files=["res://.godot/imported/controller_xboxseries.svg-4185f11ef37e62acebc4317a4cd7e411.ctex"]
 
 [params]
 
